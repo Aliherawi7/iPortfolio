@@ -4,7 +4,7 @@ import "./Home.css"
 function Home() {
   return (
     <main className='home'>
-        <div className='introduction'>
+        <div className='introduction margin-LR-90'>
             <div className='intro-text'>
                 <p>Hello, Im</p>
                 <h1>Ali Herawi</h1>

@@ -1,14 +1,16 @@
 .header{
     width: 100%;
-    padding: 10px 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     position: sticky;
     align-items: center;
+    justify-content: space-between;
     top: 0;
     left: 0;
 }
 .header .nav-brand{
-    width: 1200px;
+    width: 120px;
 }
 
 .header nav a{
