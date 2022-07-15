@@ -6,6 +6,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  font-weight: 500;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
