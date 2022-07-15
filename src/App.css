@@ -1,5 +1,12 @@
 
 .margin-LR-90{
-    padding-right: 90px !important;
-    padding-left: 90px !important;
+    padding-right: 90px ;
+    padding-left: 90px ;
+}
+
+@media(max-width:768px){
+    .margin-LR-90{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
 }
