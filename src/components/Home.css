@@ -29,7 +29,7 @@
 }
 .intro-text .see-my-works{
     background-color: #ed329d;
-    padding: 5px 10px;
+    padding:10px;
     font-size: 16px;
     outline: none;
     font-size: 14px;
@@ -49,13 +49,21 @@
 }
 
 .expert-in-container{
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
 }
+.expert-in-container h1{
+    font-size: 30px;
+    font-weight: 500;
+}
 .expert-in-container .experts{
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
+
+/* expert */
 .expert-in-container .expert{
     display: flex;
     flex-direction: column;
@@ -72,6 +80,10 @@
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 400;
+}
+.experts .expert p{
+    font-size: 14px;
+    font-weight: 300;
 }
 .experts .expert a{
     margin-top:25px;
