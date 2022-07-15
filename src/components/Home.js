@@ -14,7 +14,7 @@ function Home() {
                         See My Works
                     </button>
                 </div>
-                <img src='./image/person1.png' className='profile' />
+                <img src='./image/person2.png' className='profile' />
             </div>
             <div className='expert-in-container padding-LR-90'>
                 <h1>Expert in</h1>
