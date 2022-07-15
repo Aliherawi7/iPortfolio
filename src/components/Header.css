@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    padding: 10px 90px;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+.header .nav-brand{
+    width: 1200px;
+}
+
+.header nav a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.header nav a:hover{
+    color: inherit;
+}
