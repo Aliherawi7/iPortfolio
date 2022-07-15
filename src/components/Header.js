@@ -10,7 +10,11 @@ function Header() {
                 <Link to={"/"}>Home</Link>
                 <Link to={"/works"}>Works</Link>
                 <Link to={"/blog"}>Blog</Link>
+                <span className='hire-me'>
+                    <Link to="">Hire Me!</Link>
+                </span>
             </nav>
+
         </header>
     )
 }

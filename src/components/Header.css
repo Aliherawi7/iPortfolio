@@ -18,6 +18,7 @@
 .header nav a{
     box-sizing: border-box;
     padding:5px 15px;
+    margin: 0 5px;
     text-decoration: none;
     color: #000;
     border: 1px solid #fff;
@@ -28,4 +29,13 @@
     border-color: #ddd;
     border-radius: 30px;
     transition: border .3s;
+}
+.header .hire-me a{
+    border-radius: 30px;
+    color: #ee14dc;
+    border-color: #ddd;
+}
+.header .hire-me a:hover{
+    color: #000;
+    border: 1px solid #fff;
 }
