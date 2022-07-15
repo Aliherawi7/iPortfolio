@@ -4,7 +4,7 @@ import "./Header.css"
 
 function Header() {
     return (
-        <header className='header margin-LR-90'>
+        <header className='header padding-LR-90'>
             <h2 className='nav-brand'>Ali Herawi</h2>
             <nav>
                 <Link to={"/"}>Home</Link>

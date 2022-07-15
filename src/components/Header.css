@@ -14,11 +14,16 @@
 }
 
 .header nav a{
-    margin-right: 30px;
+    box-sizing: border-box;
+    padding:0 15px;
     text-decoration: none;
     color: #000;
+    border: 1px solid #fff;
     font-weight: 500;
 }
 .header nav a:hover{
-    color: inherit;
+    color: #ee14dc;
+    border-color: #ddd;
+    border-radius: 30px;
+    transition: border .3s;
 }
