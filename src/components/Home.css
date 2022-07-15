@@ -27,7 +27,52 @@
     font-size: 20px;
     font-weight: 400;
 }
+.intro-text .see-my-works{
+    background-color: #ed329d;
+    padding: 5px 10px;
+    font-size: 16px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.intro-text .see-my-works:hover{
+    background-color: #be277d;
+}
 .introduction .profile{
     width: 190px;
     margin-bottom: -20px;
+}
+
+.expert-in-container{
+    display: flex;
+    flex-direction: column;
+}
+.expert-in-container .experts{
+    display: flex;
+    justify-content: space-between;
+}
+.expert-in-container .expert{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin: 10px;
+    justify-content: center;
+
+}
+.experts .expert i{
+    font-size: 40px;
+}
+.experts .expert h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.experts .expert a{
+    margin-top:25px;
 }
