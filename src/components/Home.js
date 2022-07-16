@@ -1,8 +1,26 @@
-import React from 'react'
-import {Link} from "react-router-dom"
+import React, { useState } from 'react'
+import { Link } from "react-router-dom"
 import "./Home.css"
-
+import Slider from './Slider'
+import CaseStudies from "../CaseStudies"
+let counter = 0
 function Home() {
+    const [sliderComponent, setSliderComponent] = useState({ comp: Slider[0] })
+    const nextSlide = () => {
+        counter++;
+        if (counter > CaseStudies.length - 1) {
+            counter = 0;
+        }
+        setSliderComponent({ comp: Slider[counter % 2] })
+    }
+    const prevSlide = () => {
+        counter--;
+        if (counter < 0) {
+            counter = CaseStudies.length - 1;
+        }
+        setSliderComponent({ comp: Slider[counter % 2] })
+    }
+
     return (
         <main className='home'>
             <div className='introduction padding-LR-90'>
@@ -14,7 +32,7 @@ function Home() {
                         See My Works
                     </button>
                 </div>
-                <img src='./image/person2.png' className='profile' />
+                <img src='./image/person1.png' className='profile' />
             </div>
             <div className='expert-in-container padding-LR-90'>
                 <h1>Expert in</h1>
@@ -37,6 +55,19 @@ function Home() {
                         <p>Lorem opwuiero iueroweiur oepiur poiu</p>
                         <Link to="">view more</Link>
                     </div>
+                </div>
+            </div>
+            <div className='case-studies '>
+                <h2 className=' padding-LR-90'>Case Studies</h2>
+                <div className='case-studies-container'>
+                    <i className='bi bi-chevron-left' onClick={nextSlide}></i>
+                    <div className='slider-container'>
+                        {<sliderComponent.comp
+                            image={CaseStudies[counter].image}
+                            appInfo={CaseStudies[counter].appInfo}
+                        />}
+                    </div>
+                    <i className='bi bi-chevron-right' onClick={prevSlide}></i>
                 </div>
             </div>
         </main>
