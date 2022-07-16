@@ -14,7 +14,7 @@ function Home() {
                         See My Works
                     </button>
                 </div>
-                <img src='./image/person2.png' className='profile' />
+                <img src='./image/person1.png' className='profile' />
             </div>
             <div className='expert-in-container padding-LR-90'>
                 <h1>Expert in</h1>
@@ -37,6 +37,16 @@ function Home() {
                         <p>Lorem opwuiero iueroweiur oepiur poiu</p>
                         <Link to="">view more</Link>
                     </div>
+                </div>
+            </div>
+            <div className='case-studies '>
+                <h2 className=' padding-LR-90'>Case Studies</h2>
+                <div className='slider'>
+                    <i className='bi bi-chevron-left'></i>
+                    <div className='slider-container'>
+                        this is slider
+                    </div>
+                    <i className='bi bi-chevron-right'></i>
                 </div>
             </div>
         </main>
