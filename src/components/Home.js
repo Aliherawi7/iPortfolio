@@ -41,7 +41,7 @@ function Home() {
             </div>
             <div className='case-studies '>
                 <h2 className=' padding-LR-90'>Case Studies</h2>
-                <div className='slider'>
+                <div className='case-studies-container'>
                     <i className='bi bi-chevron-left'></i>
                     <div className='slider-container'>
                         this is slider
