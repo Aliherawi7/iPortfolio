@@ -5,7 +5,7 @@ import "./Header.css"
 function Header() {
     return (
         <header className='header padding-LR-90'>
-            <h2 className='nav-brand'>Ali Herawi</h2>
+            <img src="./image/AH1.png" className='nav-brand'/>
             <nav>
                 <Link to={"/"}>Home</Link>
                 <Link to={"/works"}>Works</Link>
