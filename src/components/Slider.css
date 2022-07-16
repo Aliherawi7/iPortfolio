@@ -1,0 +1,10 @@
+.slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider .slider-image{
+    max-width: 400px;
+    object-fit: contain;
+    margin: 0 30px;
+}
