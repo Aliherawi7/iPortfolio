@@ -8,3 +8,22 @@
     object-fit: contain;
     margin: 0 30px;
 }
+
+.case-studies-container{
+    padding: 20px 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.case-studies-container i{
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding:5px 10px;
+}
+.case-studies-container i:hover{
+    background-color: #ddd;
+
+}

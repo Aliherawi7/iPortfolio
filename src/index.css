@@ -15,3 +15,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.left-to-right{
+  animation-name: left-to-right;
+  animation-duration: .4s;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.right-to-left{
+  animation-name: right-to-left;
+  animation-duration: .4s;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes left-to-right{
+  from{
+    transform: translateX(-100vh);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+@keyframes right-to-left{
+  from{
+    transform: translateX(100vh);
+  }
+  to{
+    transform: translateX(0);
+  }
+}

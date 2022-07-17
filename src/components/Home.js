@@ -1,26 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from "react-router-dom"
 import "./Home.css"
 import Slider from './Slider'
-import CaseStudies from "../CaseStudies"
-let counter = 0
-function Home() {
-    const [sliderComponent, setSliderComponent] = useState({ comp: Slider[0] })
-    const nextSlide = () => {
-        counter++;
-        if (counter > CaseStudies.length - 1) {
-            counter = 0;
-        }
-        setSliderComponent({ comp: Slider[counter % 2] })
-    }
-    const prevSlide = () => {
-        counter--;
-        if (counter < 0) {
-            counter = CaseStudies.length - 1;
-        }
-        setSliderComponent({ comp: Slider[counter % 2] })
-    }
 
+function Home() {
+    
     return (
         <main className='home'>
             <div className='introduction padding-LR-90'>
@@ -59,16 +43,7 @@ function Home() {
             </div>
             <div className='case-studies '>
                 <h2 className=' padding-LR-90'>Case Studies</h2>
-                <div className='case-studies-container'>
-                    <i className='bi bi-chevron-left' onClick={nextSlide}></i>
-                    <div className='slider-container'>
-                        {<sliderComponent.comp
-                            image={CaseStudies[counter].image}
-                            appInfo={CaseStudies[counter].appInfo}
-                        />}
-                    </div>
-                    <i className='bi bi-chevron-right' onClick={prevSlide}></i>
-                </div>
+                <Slider />
             </div>
         </main>
     )
