@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from "react-router-dom"
 import "./Home.css"
 import Slider from './Slider'
-let counter = 0
+
 function Home() {
     
-
     return (
         <main className='home'>
             <div className='introduction padding-LR-90'>
