@@ -20,8 +20,7 @@ function Slider() {
         counter--;
         if (counter < 0) {
             counter = CaseStudies.length - 1;
-        }
-        
+        } 
         animate = "right-to-left"
         setSliderComponent({ comp: Slides[counter % 2] })
     }
