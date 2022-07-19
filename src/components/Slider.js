@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 import "./Slider.css"
 import CaseStudies from "../CaseStudies"
 
@@ -7,12 +7,12 @@ let counter = 0
 let animate = {ANIMATE_LEFT_RIGHT:"left-to-right", ANIMATE_RIGHT_LEFT:"right-to-left"}
 function Slider() {
     const [sliderComponent, setSliderComponent] = useState({ comp: Slides[0], animate:animate.ANIMATE_LEFT_RIGHT })
+ 
     const nextSlide = () => {
         counter++;
         if (counter > CaseStudies.length - 1) {
             counter = 0;
         }
-        
         setSliderComponent({ comp: Slides[counter % 2], animate: animate.ANIMATE_LEFT_RIGHT})
     }
     const prevSlide = () => {
@@ -20,7 +20,6 @@ function Slider() {
         if (counter < 0) {
             counter = CaseStudies.length - 1;
         } 
-
         setSliderComponent({comp: Slides[counter % 2],animate:animate.ANIMATE_RIGHT_LEFT})
     }
     return (
@@ -37,6 +36,11 @@ function Slider() {
         </div>
     )
 }
+
+
+
+
+
 function Container1({ appInfo, image ,animate}) {
     return (
         <div className={'slider '+animate}>
