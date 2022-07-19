@@ -33,7 +33,7 @@ code {
 
 @keyframes left-to-right{
   from{
-    transform: translateX(-100vw);
+    transform: translateX(-50vw);
   }
   to{
     transform: translateX(0);
@@ -41,7 +41,7 @@ code {
 }
 @keyframes right-to-left{
   from{
-    transform: translateX(100vw);
+    transform: translateX(50vw);
   }
   to{
     transform: translateX(0);
