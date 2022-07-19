@@ -4,9 +4,9 @@ import "./Home.css"
 import Slider from './Slider'
 
 function Home() {
-    
+
     return (
-        <main className='home'>
+        <main className='home left-to-right'>
             <div className='introduction padding-LR-90'>
                 <div className='intro-text'>
                     <p>Hello, my name is</p>
@@ -45,6 +45,24 @@ function Home() {
                 <h2 className=' padding-LR-90'>Case Studies</h2>
                 <Slider />
             </div>
+            <div className='hire-me-box padding-LR-90'>
+                <div className='hire-me-text'>
+                    <h2>Make It Awesome</h2>
+                    <p>
+                        Let's meke somthing more meaningfuland make thing more vitual conceptual and packed with a very user friendly
+                    </p>
+                </div>
+                <button className='hire-me'>Hire Me!</button>
+            </div>
+            <footer className='padding-LR-90'>
+                <p>© 2022 - Ali Herawi</p>
+                <div className='contact-me'>
+                    <a href=''><i className='bi bi-linkedin'></i></a>
+                    <a href=''><i className='bi bi-twitter'></i></a>
+                    <a href=''><i className='bi bi-github'></i></a>
+                    <a href=''><i className='bi bi-instagram'></i></a>
+                </div>
+            </footer>
         </main>
     )
 }
