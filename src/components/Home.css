@@ -1,35 +1,49 @@
+.home {}
 
-.home{
-    
-}
 .introduction {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to bottom ,#fff,#f9f9f9);
+    background: linear-gradient(to bottom, #fff, #f9f9f9);
     position: relative;
-    font-family:'Segoe UI';
+    font-family: 'Segoe UI';
 
 }
-.introduction .intro-text{
-    width: 50%; 
+
+.introduction .profile-container {
+    position: absolute;
+    bottom: 0;
+    right: 90px;
 }
-.intro-text p{
+
+.introduction .profile {
+    width: 220px;
+    vertical-align: middle;
+}
+
+.introduction .intro-text {
+    width: 80%;
+}
+
+.intro-text p {
     font-size: 20px;
     font-weight: 300;
 }
-.intro-text h1{
+
+.intro-text h1 {
     font-weight: 600;
     letter-spacing: 2px;
 }
-.intro-text h2{
+
+.intro-text h2 {
     font-size: 20px;
     font-weight: 400;
 }
-.intro-text .see-my-works{
+
+.intro-text .see-my-works {
     background-color: #ed329d;
-    padding:10px;
+    padding: 10px;
     font-size: 16px;
     outline: none;
     font-size: 14px;
@@ -40,31 +54,31 @@
     margin-top: 20px;
     cursor: pointer;
 }
-.intro-text .see-my-works:hover{
+
+.intro-text .see-my-works:hover {
     background-color: #be277d;
 }
-.introduction .profile{
-    width: 190px;
-    margin-bottom: -20px;
-}
 
-.expert-in-container{
-    padding-top: 50px;
+
+
+.expert-in-container {
     display: flex;
     flex-direction: column;
 }
-.expert-in-container h1{
+
+.expert-in-container h1 {
     font-size: 30px;
     font-weight: 400;
 }
-.expert-in-container .experts{
+
+.expert-in-container .experts {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
 /* expert */
-.expert-in-container .expert{
+.expert-in-container .expert {
     display: flex;
     flex-direction: column;
     height: 200px;
@@ -72,34 +86,94 @@
     justify-content: center;
 
 }
-.experts .expert i{
+
+.experts .expert i {
     font-size: 40px;
 }
-.experts .expert h2{
+
+.experts .expert h2 {
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: 400;
 }
-.experts .expert p{
+
+.experts .expert p {
     font-size: 14px;
     font-weight: 300;
 }
-.experts .expert a{
-    margin-top:25px;
+
+.experts .expert a {
+    margin-top: 25px;
 }
 
 /* case studies */
-.case-studies{
+.case-studies {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     width: 100%;
     background-color: #ebf7f8;
 }
-.case-studies h2{
+
+.case-studies h2 {
     font-size: 30px;
     font-weight: 400;
 }
 
+.hire-me-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
 
+.hire-me-box .hire-me-text h2,
+.hire-me-text p {
+    margin-bottom: 15px;
+    max-width: 450px;
+    line-height: 30px;
+}
+
+.hire-me-box .hire-me {
+    border-radius: 30px;
+    border: 1px solid #ed329d;
+    color: #ed329d;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: #fff;
+    transition: background 0.4s ease-in-out;
+}
+
+.hire-me-box .hire-me:hover {
+    background-color: #ed329d;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9e9e9;
+
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+footer p {
+    font-weight: 500;
+}
+
+footer .contact-me a {
+    margin: 5px;
+    color: #424141;
+    padding: 5px 10px;
+}
+
+footer .contact-me a:hover {
+    color: #000;
+}
+
+@media (max-width: 768px){
+    .introduction .profile-container .profile{
+         width: 180px;
+    }
+}

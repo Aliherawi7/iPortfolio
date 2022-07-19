@@ -2,6 +2,11 @@
 .padding-LR-90{
     padding-right: 90px ;
     padding-left: 90px ;
+    padding-top: 50px;
+}
+.margin-LR-90{
+    margin:0 90px ;
+    padding-top: 50px; 
 }
 
 @media(max-width:768px){

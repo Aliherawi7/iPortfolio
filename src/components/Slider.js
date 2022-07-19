@@ -1,29 +1,26 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 import "./Slider.css"
 import CaseStudies from "../CaseStudies"
 
 
 let counter = 0
-let animate = "left-to-right"
+let animate = {ANIMATE_LEFT_RIGHT:"left-to-right", ANIMATE_RIGHT_LEFT:"right-to-left"}
 function Slider() {
-    const [sliderComponent, setSliderComponent] = useState({ comp: Slides[0] })
+    const [sliderComponent, setSliderComponent] = useState({ comp: Slides[0], animate:animate.ANIMATE_LEFT_RIGHT })
+ 
     const nextSlide = () => {
         counter++;
         if (counter > CaseStudies.length - 1) {
             counter = 0;
         }
-        animate = "left-to-right"
-        setSliderComponent({ comp: Slides[counter % 2] })
-        
+        setSliderComponent({ comp: Slides[counter % 2], animate: animate.ANIMATE_LEFT_RIGHT})
     }
     const prevSlide = () => {
         counter--;
         if (counter < 0) {
             counter = CaseStudies.length - 1;
-        }
-        
-        animate = "right-to-left"
-        setSliderComponent({ comp: Slides[counter % 2] })
+        } 
+        setSliderComponent({comp: Slides[counter % 2],animate:animate.ANIMATE_RIGHT_LEFT})
     }
     return (
         <div className='case-studies-container'>
@@ -32,13 +29,18 @@ function Slider() {
                 {<sliderComponent.comp
                     image={CaseStudies[counter].image}
                     appInfo={CaseStudies[counter].appInfo}
-                    animate = {animate}
+                    animate = {sliderComponent.animate}
                 />}
             </div>
             <i className='bi bi-chevron-right' onClick={prevSlide}></i>
         </div>
     )
 }
+
+
+
+
+
 function Container1({ appInfo, image ,animate}) {
     return (
         <div className={'slider '+animate}>
