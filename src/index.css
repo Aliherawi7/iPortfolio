@@ -10,6 +10,10 @@ a{
   text-decoration: none;
   font-weight: 500;
 }
+h2{
+  font-size: 30px;
+  font-weight: 400;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -19,17 +23,17 @@ code {
 .left-to-right{
   animation-name: left-to-right;
   animation-duration: .4s;
-  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
 }
 .right-to-left{
   animation-name: right-to-left;
   animation-duration: .4s;
-  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
 }
 
 @keyframes left-to-right{
   from{
-    transform: translateX(-100vh);
+    transform: translateX(-100vw);
   }
   to{
     transform: translateX(0);
@@ -37,7 +41,7 @@ code {
 }
 @keyframes right-to-left{
   from{
-    transform: translateX(100vh);
+    transform: translateX(100vw);
   }
   to{
     transform: translateX(0);
