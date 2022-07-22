@@ -1,3 +1,24 @@
 .works{
+    display: flex;
+    flex-direction: column;
+}
+.works .works-container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.works .work{
+    max-width: max-content;
+    margin: 20px 10px;
     
+}
+.works .work .image-container{
+    background-color: #3e3e3e;
+    padding: 30px 60px;
+    box-shadow: 1px 1px 10px 8px #ddd;
+}
+.works .work .image-container img{
+    width: 400px;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
 }
