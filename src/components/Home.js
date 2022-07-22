@@ -12,7 +12,7 @@ function Home() {
                     <div className='intro-text'>
                         <p>Hello, my name is</p>
                         <h1>Ali Herawi</h1>
-                        <h2>I'm fullstack developer. I make web application with react js and spring boot.</h2>
+                        <h2>I'm fullstack developer. I make awesome web application with react js and spring boot.</h2>
                         <button className='see-my-works'>
                             See My Works
                         </button>
@@ -63,7 +63,7 @@ function Home() {
                 </div>
             </div>
             <footer >
-                <div className='margin-LR-90'>
+                <div className='footer-container margin-LR-90'>
                     <p>© 2022 - Ali Herawi</p>
                     <div className='contact-me'>
                         <a href=''><i className='bi bi-linkedin'></i></a>

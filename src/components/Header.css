@@ -15,7 +15,7 @@
     width: 60px;
 }
 
-.header nav a{
+.header nav span{
     box-sizing: border-box;
     padding:5px 15px;
     margin: 0 5px;
@@ -24,43 +24,32 @@
     border: 1px solid #fff;
     font-weight: 500;
 }
-.header nav a:hover{
-    color: #ee14dc;
+.header nav span:hover{
     border-color: #ddd;
     border-radius: 30px;
-    transition: border .3s;
+    border: 1px solid #ed329d;
+    color: #ed329d;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background 0.4s ease-in-out;
 }
-.header .hire-me a{
-    position: relative;
-    border-radius: 30px;
+.header nav .active{
     color: #ee14dc;
-    border-color: #ddd;
-    overflow: hidden;
-}
-.header .hire-me a::after{
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #ee14dc;
-    border-radius: 30px;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
 }
 
-.header .hire-me a:hover{
-    color: #000;
-    border: 1px solid #fff;
+.header .hire-me{
+    border-radius: 30px;
+    border: 1px solid #ed329d;
+    color: #fff;
+    background-color: #ed329d;
+    padding: 8px 14px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: background 0.4s ease-in-out;
 }
-.header .hire-me a:hover:after{
-    transform: scaleX(1);
+
+
+.header .hire-me:hover {
+    background-color: #fff;
+    color: #ed329d;
 }
