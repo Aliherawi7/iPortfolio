@@ -31,6 +31,17 @@ const CaseStudies = [
             title: "Resume Builder",
             body: "Lorem atujoweriu woeiur oweiur weoiru weoriu eoruytoi w"
         }
+    },
+    {
+        image: {
+            address: "./image/4.png",
+            alt: "Music Player"
+        },
+        appInfo: {
+            header: "Web Application",
+            title: "Music Player",
+            body: "Lorem atujoweriu woeiur oweiur weoiru weoriu eoruytoi w"
+        }
     }
 ]
 export default CaseStudies;
