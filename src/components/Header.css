@@ -15,7 +15,7 @@
     width: 60px;
 }
 
-.header nav a{
+.header nav span{
     box-sizing: border-box;
     padding:5px 15px;
     margin: 0 5px;
@@ -24,8 +24,7 @@
     border: 1px solid #fff;
     font-weight: 500;
 }
-.header nav a:hover{
-    color: #ee14dc;
+.header nav span:hover{
     border-color: #ddd;
     border-radius: 30px;
     border: 1px solid #ed329d;
@@ -34,19 +33,23 @@
     background-color: #fff;
     transition: background 0.4s ease-in-out;
 }
+.header nav .active{
+    color: #ee14dc;
+}
+
 .header .hire-me{
     border-radius: 30px;
     border: 1px solid #ed329d;
-    color: #ed329d;
+    color: #fff;
+    background-color: #ed329d;
     padding: 8px 14px;
     cursor: pointer;
     margin-right: 20px;
-    background-color: #fff;
     transition: background 0.4s ease-in-out;
 }
 
 
 .header .hire-me:hover {
-    background-color: #ed329d;
-    color: #fff;
+    background-color: #fff;
+    color: #ed329d;
 }
