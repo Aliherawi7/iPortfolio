@@ -1,5 +1,6 @@
 const CaseStudies = [
     {
+        id:0,
         image: {
             address: "./image/1.png",
             alt: "NetFlix clone"
@@ -11,6 +12,7 @@ const CaseStudies = [
         }
     },
     {
+        id:1,
         image: {
             address: "./image/2.png",
             alt: "eShop store"
@@ -22,6 +24,7 @@ const CaseStudies = [
         }
     },
     {
+        id:2,
         image: {
             address: "./image/3.png",
             alt: "Resume Builder"
@@ -33,6 +36,7 @@ const CaseStudies = [
         }
     },
     {
+        id:3,
         image: {
             address: "./image/4.png",
             alt: "Music Player"
