@@ -63,7 +63,7 @@ function Home() {
                 </div>
             </div>
             <footer >
-                <div className='margin-LR-90'>
+                <div className='footer-container margin-LR-90'>
                     <p>© 2022 - Ali Herawi</p>
                     <div className='contact-me'>
                         <a href=''><i className='bi bi-linkedin'></i></a>
