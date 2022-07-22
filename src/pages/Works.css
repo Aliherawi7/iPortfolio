@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: column;
 }
+.works .works-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom:20px;
+    text-align: center;
+}
 .works .works-container{
     display: flex;
     flex-flow: wrap;
