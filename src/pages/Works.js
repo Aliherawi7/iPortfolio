@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 function Works() {
 
   return (
-    <div className='works margin-LR-90'>
+    <div className='works margin-LR-90 right-to-left'>
         <h2 className='works-title'>My Works</h2>
         <div className='works-container '>
             {CaseStudies.map(work => {
