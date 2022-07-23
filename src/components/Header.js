@@ -11,7 +11,7 @@ function Header() {
     return (
         <header className='header padding-LR-90'>
             <Link to="/">
-                <img src="./image/AH1.png" className='nav-brand' />
+                <img src="/image/AH1.png" className='nav-brand' />
             </Link>
             <nav>
                 <Link to={"/"} onClick={()=>setActive("/")}>
