@@ -2,7 +2,7 @@ const CaseStudies = [
     {
         id:0,
         image: {
-            address: "./image/1.png",
+            address: "/image/1.png",
             alt: "NetFlix clone"
         },
          appInfo: {
@@ -26,7 +26,7 @@ const CaseStudies = [
     {
         id:2,
         image: {
-            address: "./image/3.png",
+            address: "/image/3.png",
             alt: "Resume Builder"
         },
         appInfo: {
@@ -38,7 +38,7 @@ const CaseStudies = [
     {
         id:3,
         image: {
-            address: "./image/4.png",
+            address: "/image/4.png",
             alt: "Music Player"
         },
         appInfo: {
