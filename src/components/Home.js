@@ -56,7 +56,7 @@ function Home() {
                     <div className='hire-me-text'>
                         <h2>Make It Awesome</h2>
                         <p>
-                            Let's meke somthing more meaningfuland make thing more vitual conceptual and packed with a very user friendly
+                            Let's meke something more meaningful and make things more vitual conceptual and packed with a very user friendly
                         </p>
                     </div>
                     <button className='hire-me'>Hire Me!</button>
