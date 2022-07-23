@@ -1,36 +1,40 @@
-import React,{useState, useEffect} from 'react'
+import React, { useState} from 'react'
+import {Link} from 'react-router-dom'
 import "./Slider.css"
 import CaseStudies from "../CaseStudies"
 
 
 let counter = 0
-let animate = {ANIMATE_LEFT_RIGHT:"left-to-right", ANIMATE_RIGHT_LEFT:"right-to-left"}
+let animate = { ANIMATE_LEFT_RIGHT: "left-to-right", ANIMATE_RIGHT_LEFT: "right-to-left" }
 function Slider() {
-    const [sliderComponent, setSliderComponent] = useState({ comp: Slides[0], animate:animate.ANIMATE_LEFT_RIGHT })
- 
+    const [sliderComponent, setSliderComponent] = useState({ comp: Slides[0], animate: animate.ANIMATE_LEFT_RIGHT })
+
     const nextSlide = () => {
         counter++;
         if (counter > CaseStudies.length - 1) {
             counter = 0;
         }
-        setSliderComponent({ comp: Slides[counter % 2], animate: animate.ANIMATE_LEFT_RIGHT})
+        setSliderComponent({ comp: Slides[counter % 2], animate: animate.ANIMATE_LEFT_RIGHT })
     }
     const prevSlide = () => {
         counter--;
         if (counter < 0) {
             counter = CaseStudies.length - 1;
-        } 
-        setSliderComponent({comp: Slides[counter % 2],animate:animate.ANIMATE_RIGHT_LEFT})
+        }
+        setSliderComponent({ comp: Slides[counter % 2], animate: animate.ANIMATE_RIGHT_LEFT })
     }
     return (
+
         <div className='case-studies-container'>
             <i className='bi bi-chevron-left' onClick={nextSlide}></i>
             <div className='slider-container'>
-                {<sliderComponent.comp
-                    image={CaseStudies[counter].image}
-                    appInfo={CaseStudies[counter].appInfo}
-                    animate = {sliderComponent.animate}
-                />}
+                <Link to={"/works/"+counter}>
+                    {<sliderComponent.comp
+                        image={CaseStudies[counter].image}
+                        appInfo={CaseStudies[counter].appInfo}
+                        animate={sliderComponent.animate}
+                    />}
+                </Link>
             </div>
             <i className='bi bi-chevron-right' onClick={prevSlide}></i>
         </div>
@@ -41,9 +45,9 @@ function Slider() {
 
 
 
-function Container1({ appInfo, image ,animate}) {
+function Container1({ appInfo, image, animate }) {
     return (
-        <div className={'slider '+animate}>
+        <div className={'slider ' + animate}>
             <img src={image.address} className="slider-image" alt={image.alt} />
             <div className='slider-text'>
                 <h3 className='slider-header-2'>{appInfo.header}</h3>
@@ -55,9 +59,9 @@ function Container1({ appInfo, image ,animate}) {
         </div>
     )
 }
-function Container2({ appInfo, image ,animate}) {
+function Container2({ appInfo, image, animate }) {
     return (
-        <div className={'slider '+animate}>
+        <div className={'slider ' + animate}>
             <img src={image.address} className="slider-image" alt={image.alt} />
             <div className='slider-text'>
                 <h3 className='slider-header-2'>{appInfo.header}</h3>
