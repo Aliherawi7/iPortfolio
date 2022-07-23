@@ -9,6 +9,7 @@
 a{
   text-decoration: none;
   font-weight: 500;
+  color: inherit;
 }
 h2{
   font-size: 30px;
