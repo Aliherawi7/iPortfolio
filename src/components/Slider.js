@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import "./Slider.css"
 import CaseStudies from "../CaseStudies"
 
-
 let counter = 0
 let animate = { ANIMATE_LEFT_RIGHT: "left-to-right", ANIMATE_RIGHT_LEFT: "right-to-left" }
 function Slider() {

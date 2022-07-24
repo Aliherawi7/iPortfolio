@@ -9,8 +9,8 @@ function WorkDetails() {
     console.log(work)
     return (
         <div className='work-details'>
-            <h2>{work.appInfo.title}</h2>
-            <div className='imgae-container'>
+            <h2 className='work-title'>{work.appInfo.title}</h2>
+            <div className='image-container'>
                 <img src={work.image.address} alt={work.image.alt} />
             </div>
             <div className='details-text'>

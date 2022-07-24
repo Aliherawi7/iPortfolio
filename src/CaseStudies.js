@@ -14,7 +14,7 @@ const CaseStudies = [
     {
         id:1,
         image: {
-            address: "./image/2.png",
+            address: "/image/2.png",
             alt: "eShop store"
         },
         appInfo: {

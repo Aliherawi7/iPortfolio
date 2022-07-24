@@ -1,0 +1,19 @@
+.work-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.work-details .work-title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.work-details .image-container{
+    text-align: center;
+}
+.work-details .image-container img{
+    width: 60%;
+    margin: auto;
+}
