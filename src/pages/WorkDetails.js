@@ -32,6 +32,12 @@ function WorkDetails() {
                         {work.appInfo.body}
                     </p>
                 </div>
+                <div className='work-links detail-body'>
+                    <h3>Work links</h3>
+                    <a href=''><i className='bi bi-github'></i></a>
+                    <a href=''><i className='bi bi-globe'></i></a>
+                    <a href=''><i className='bi bi-linkedin'></i></a>
+                </div>
             </div>
         </div>
     )

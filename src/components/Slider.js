@@ -43,7 +43,6 @@ function Slider() {
 
 
 
-
 function Container1({ appInfo, image, animate }) {
     return (
         <div className={'slider ' + animate}>

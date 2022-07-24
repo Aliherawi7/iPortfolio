@@ -8,7 +8,7 @@ const CaseStudies = [
          appInfo: {
             header: "Web Application",
             title: "NetFlix clone",
-            body: "Lorem atujoweriu woeiur oweiur weoiru weoriu eoruytoi w"
+            body: "Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus mass Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget"
         }
     },
     {
@@ -20,7 +20,7 @@ const CaseStudies = [
         appInfo: {
             header: "Web Application",
             title: "eShop store",
-            body: "Lorem atujoweriu woeiur oweiur weoiru weoriu eoruytoi w"
+            body: "Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus mass Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget"
         }
     },
     {
@@ -32,7 +32,7 @@ const CaseStudies = [
         appInfo: {
             header: "Web Application",
             title: "Resume Builder",
-            body: "Lorem atujoweriu woeiur oweiur weoiru weoriu eoruytoi w"
+            body: "Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus mass Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget"
         }
     },
     {
@@ -44,8 +44,9 @@ const CaseStudies = [
         appInfo: {
             header: "Web Application",
             title: "Music Player",
-            body: "Lorem atujoweriu woeiur oweiur weoiru weoriu eoruytoi w"
+            body: "Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus mass Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget"
         }
     }
 ]
 export default CaseStudies;
+

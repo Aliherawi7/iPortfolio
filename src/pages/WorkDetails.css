@@ -17,3 +17,36 @@
     width: 60%;
     margin: auto;
 }
+.details-text{
+    width: 60%;
+}
+
+.details-text .detail-body h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.details-text .detail-body p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.work-links i{
+    padding: 20px;
+    font-size: 35px;
+    color: #ed329d;
+}
+@media(max-width:768px){
+    
+    .details-text{
+        width: 80%;
+    }
+    .work-details .image-container img{
+        width: 80%;
+        margin: auto;
+    }
+    .work-links i{
+        padding: 20px;
+        font-size: 25px;
+        color: #ed329d;
+    }
+}
