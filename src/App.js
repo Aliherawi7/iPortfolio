@@ -1,24 +1,29 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
-import Works from './pages/Works';
-import WorkDetails from './pages/WorkDetails';
+import Loading from "./components/Loading"
+
+const Header = React.lazy(() => import('./components/Header'));
+const Footer = React.lazy(() => import('./components/Footer'));
+const Home = React.lazy(() => import('./components/Home'));
+const Works = React.lazy(() => import('./pages/Works'));
+const WorkDetails = React.lazy(() => import('./pages/WorkDetails'));
+
 
 function App() {
   return (
-    <div className="App">
+    <Suspense fallback={<Loading />}>
       <Router>
         <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/works/:id" element={<WorkDetails />}/>
-            <Route path="/works" element={<Works />} />
-            <Route path="*" element={<h1 style={{textAlign:"center"}}>Not found</h1>} />
-          </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/works/:id" element={<WorkDetails />} />
+          <Route path="/works" element={<Works />} />
+          <Route path="*" element={<Loading />} />
+        </Routes>
+        <Footer />
       </Router>
-    </div>
+    </Suspense>
   );
 }
 

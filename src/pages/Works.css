@@ -37,3 +37,15 @@
     image-rendering: -webkit-optimize-contrast;
     transition: transform .3s;
 }
+
+@media(max-width:768px){
+    .works .work .image-container img{
+        width: 100%;
+        
+    }
+    .works .work .image-container{
+        background-color: #3e3e3e;
+        padding: 0px 0px;
+        box-shadow: 1px 1px 10px 8px #ddd;
+    }
+}

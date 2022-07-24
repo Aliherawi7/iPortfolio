@@ -9,8 +9,8 @@ function WorkDetails() {
     console.log(work)
     return (
         <div className='work-details'>
-            <h2>{work.appInfo.title}</h2>
-            <div className='imgae-container'>
+            <h2 className='work-title'>{work.appInfo.title}</h2>
+            <div className='image-container'>
                 <img src={work.image.address} alt={work.image.alt} />
             </div>
             <div className='details-text'>
@@ -31,6 +31,12 @@ function WorkDetails() {
                     <p>
                         {work.appInfo.body}
                     </p>
+                </div>
+                <div className='work-links detail-body'>
+                    <h3>Work links</h3>
+                    <a href=''><i className='bi bi-github'></i></a>
+                    <a href=''><i className='bi bi-globe'></i></a>
+                    <a href=''><i className='bi bi-linkedin'></i></a>
                 </div>
             </div>
         </div>
