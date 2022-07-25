@@ -8,7 +8,6 @@
     margin-top: 50px;
     margin-bottom: 30px;
     font-weight: 700;
-    font-size: 40px;
 }
 .work-details .image-container{
     text-align: center;
@@ -21,8 +20,7 @@
     width: 60%;
 }
 
-.details-text .detail-body h3{
-    font-size: 25px;
+.details-text .detail-body h2{
     font-weight: 500;
     margin: 20px 0;
 }
@@ -36,7 +34,6 @@
     color: #ed329d;
 }
 @media(max-width:768px){
-    
     .details-text{
         width: 80%;
     }

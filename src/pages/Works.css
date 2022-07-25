@@ -31,33 +31,33 @@
 
 .works .work .image-container{
     background-color: #3e3e3e;
-    padding: 20px 40px;
+    padding: 10px;
     box-shadow: 1px 1px 10px 8px #ddd;
+    overflow: hidden;
 }
 .works .work .image-container img{
-    width: 380px;
+    width: 400px;
     image-rendering: pixelated;
     image-rendering: -webkit-optimize-contrast;
     transition: transform .3s;
+    margin-bottom: -5px;
 }
-
-@media(max-width:1024px){
+@media (max-width:1200px) {
     .works .work .image-container img{
-        width: 380px;
+        width: 300px;
+    }
+}
+@media(max-width:992px){
+    .works .work .image-container img{
+        width: 250px;
     }
 }
 @media(max-width:768px){
     .works .work .image-container img{
-        width: 100%;
-        
+        width: 100%;  
     }
     .works .work .image-container{
-        background-color: #3e3e3e;
-        padding: 0px 0px;
-        box-shadow: 1px 1px 10px 8px #ddd;
-    }
-    .works .work-tool h2{
-        font-size: 18px;
+        padding: 0;
     }
     .works .work-tool a{
         font-size: 14px;

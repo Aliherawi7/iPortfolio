@@ -1,10 +1,20 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+import { actions } from '../reducer';
+import { useStatevalue } from '../stateProvider';
 import "./Home.css"
 import Slider from './Slider'
 
 function Home() {
-
+    const navigate = useNavigate();
+    const [state, dispatch] = useStatevalue();
+    const seeWorks = ()=>{
+        dispatch({
+            type: actions.ACTIVE_NAV_LINK,
+            item:"/works"
+        })
+        navigate("./works");
+    }
     return (
         <main className='home left-to-right'>
             <div className='introduction'>
@@ -12,8 +22,8 @@ function Home() {
                     <div className='intro-text'>
                         <p>Hello, my name is</p>
                         <h1>Ali Herawi</h1>
-                        <h2>I'm fullstack developer. I make awesome web application with react js and spring boot.</h2>
-                        <button className='see-my-works'>
+                        <h3>I'm fullstack developer. I make awesome web application with react js and spring boot.</h3>
+                        <button className='see-my-works' onClick={seeWorks}>
                             See My Works
                         </button>
                     </div>

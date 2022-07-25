@@ -2,9 +2,11 @@ import React from 'react'
 import "./Works.css"
 import CaseStudies from '../CaseStudies'
 import { Link } from "react-router-dom"
+import { useStatevalue } from '../stateProvider'
 
 function Works() {
-
+    const [state, dispatch]= useStatevalue()
+    console.log(state)
     return (
         <div className='works margin-LR-90 right-to-left'>
             <h2 className='works-title'>My Works</h2>

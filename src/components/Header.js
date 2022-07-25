@@ -1,12 +1,25 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { actions } from '../reducer';
+import { useStatevalue } from '../stateProvider'
 import "./Header.css"
+
 
 function Header() {
     //this state is for activing the header link
-    const [path, setPath] = useState(window.location.pathname)
+    const [{navActive}, dispatch] = useStatevalue();
+    const [state, setState] = useState(navActive);
+    useEffect(()=>{
+        setState(navActive)
+        console.log(navActive)
+    },[navActive])
+
     const setActive = (path)=>{
-        setPath(path)
+        dispatch({
+            type:actions.ACTIVE_NAV_LINK,
+            item:path
+        })
+        setState(path)
     }
     return (
         <header className='header padding-LR-90'>
@@ -15,13 +28,13 @@ function Header() {
             </Link>
             <nav>
                 <Link to={"/"} onClick={()=>setActive("/")}>
-                    <span className={path=="/" ? "active":""}>Home</span>
+                    <span className={state=="/" ? "active":""}>Home</span>
                 </Link>
                 <Link to={"/works"} onClick={()=>setActive("/works")}>
-                    <span className={path=="/works" ? "active":""}>Works</span>
+                    <span className={state=="/works" ? "active":""}>Works</span>
                 </Link>
                 <Link to={"/blog"} onClick={()=>setActive("/blog")}>
-                    <span className={path=="/blog" ? "active":""}>Blog</span>
+                    <span className={state=="/blog" ? "active":""}>Blog</span>
                 </Link>
                 <button className='hire-me'>
                     Hire Me!
