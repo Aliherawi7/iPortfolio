@@ -22,14 +22,29 @@ code {
     monospace;
 }
 
-.left-to-right{
+
+
+
+/*
+
+====================================================
+||     common animation for loading components    ||
+====================================================
+
+ */
+ .left-to-right{
   animation-name: left-to-right;
-  animation-duration: .4s;
+  animation-duration: .5s;
   animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
 }
 .right-to-left{
   animation-name: right-to-left;
-  animation-duration: .4s;
+  animation-duration: .5s;
+  animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
+}
+.top-to-bottom{
+  animation-name: top-to-bottom;
+  animation-duration: .8s;
   animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
 }
 
@@ -47,5 +62,15 @@ code {
   }
   to{
     transform: translateX(0);
+  }
+}
+
+@keyframes top-to-bottom {
+  from {
+    transform: translateY(-100vh);
+  }
+
+  to {
+    transform: translateY(0);
   }
 }

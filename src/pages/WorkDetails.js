@@ -8,7 +8,7 @@ function WorkDetails() {
     const work = CaseStudies[id];
     console.log(work)
     return (
-        <div className='work-details'>
+        <div className='work-details top-to-bottom'>
             <h2 className='work-title'>{work.appInfo.title}</h2>
             <div className='image-container'>
                 <img src={work.image.address} alt={work.image.alt} />
