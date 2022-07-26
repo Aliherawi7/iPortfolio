@@ -5,7 +5,7 @@ import Loading from "./components/Loading"
 
 const Header = React.lazy(() => import('./components/Header'));
 const Footer = React.lazy(() => import('./components/Footer'));
-const Home = React.lazy(() => import('./components/Home'));
+const Home = React.lazy(() => import('./pages/Home'));
 const Works = React.lazy(() => import('./pages/Works'));
 const WorkDetails = React.lazy(() => import('./pages/WorkDetails'));
 

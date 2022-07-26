@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom"
 import { actions } from '../reducer';
 import { useStatevalue } from '../stateProvider';
 import "./Home.css"
-import Slider from './Slider'
+import Slider from '../components/Slider'
 
 function Home() {
     const navigate = useNavigate();
