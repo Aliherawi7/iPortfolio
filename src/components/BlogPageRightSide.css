@@ -1,0 +1,105 @@
+.right-side .single_sidebar_widget {
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.right-side .search_widget .form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    height: 40px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.right-side .single_sidebar_widget .form-group input {
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    width: 100%;
+}
+.right-side .widget_title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #888888;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0e9ff;
+}
+.right-side .single_sidebar_widget .search-btn{
+    background: #fff;
+    color: #131313;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid #ed329d;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.4s ease-in-out;
+}
+.single_sidebar_widget .search-btn:hover {
+    background: #ed329d;
+    color: #fff !important;
+}
+.right-side .post_category_widget .cat-list{
+    list-style: none;
+}
+.right-side .post_category_widget .cat-list li{
+    border-bottom: 1px solid #f0e9ff;
+    transition: all 0.3s ease 0s;
+    padding: 12px 0;
+}
+.right-side .post_category_widget .cat-list a{
+    display: flex;
+    font-size: 14px;
+    line-height: 20px;
+    color: #888888;
+}
+.right-side .post_category_widget .cat-list li:hover{
+    color: #ed329d;
+    background-color: #ddd;
+}
+
+.right-side .popular_post_widget .post_item{
+    margin-top: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+
+.right-side .popular_post_widget .post_item .media-body {
+    justify-content: center;
+    align-self: center;
+    padding-left: 20px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.right-side .popular_post_widget .post_item .media-body h3 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 6px;
+    transition: all 0.3s linear;
+    font-weight: 500;
+}
+.right-side .popular_post_widget .post_item .media-body p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0px;
+}
