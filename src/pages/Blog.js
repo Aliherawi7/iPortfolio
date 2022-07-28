@@ -20,7 +20,7 @@ function Blog() {
               <div className='blog-info'>
                 <Link to=""><i className='bi bi-person-fill'></i> ali herawi</Link>
                 <Link to=""><i className='bi bi-calendar-event-fill'></i> 2022-2-12</Link>
-                <Link to=""><i className='bi bi-chat-fill'></i>comments</Link>
+                <Link to=""><i className='bi bi-chat-fill'></i> comments</Link>
               </div>
             </div>
           </article>
@@ -36,7 +36,7 @@ function Blog() {
               <div className='blog-info'>
                 <Link to=""><i className='bi bi-person-fill'></i> ali herawi</Link>
                 <Link to=""><i className='bi bi-calendar-event-fill'></i> 2022-2-12</Link>
-                <Link to=""><i className='bi bi-chat-fill'></i>comments</Link>
+                <Link to=""><i className='bi bi-chat-fill'></i> comments</Link>
               </div>
             </div>
           </article>
@@ -52,7 +52,7 @@ function Blog() {
               <div className='blog-info'>
                 <Link to=""><i className='bi bi-person-fill'></i> ali herawi</Link>
                 <Link to=""><i className='bi bi-calendar-event-fill'></i> 2022-2-12</Link>
-                <Link to=""><i className='bi bi-chat-fill'></i>comments</Link>
+                <Link to=""><i className='bi bi-chat-fill'></i> comments</Link>
               </div>
             </div>
           </article>
@@ -68,7 +68,7 @@ function Blog() {
               <div className='blog-info'>
                 <Link to=""><i className='bi bi-person-fill'></i> ali herawi</Link>
                 <Link to=""><i className='bi bi-calendar-event-fill'></i> 2022-2-12</Link>
-                <Link to=""><i className='bi bi-chat-fill'></i>comments</Link>
+                <Link to=""><i className='bi bi-chat-fill'></i> comments</Link>
               </div>
             </div>
           </article>
@@ -124,7 +124,7 @@ function Blog() {
               <img src="image/post/post_1.png" alt="post" />
               <div class="media-body">
                 <a href="single-blog.html">
-                  <h3>From life was you fish...</h3>
+                  <h3>Binary search in java</h3>
                 </a>
                 <p>January 12, 2019</p>
               </div>
@@ -133,7 +133,7 @@ function Blog() {
               <img src="image/post/post_2.png" alt="post" />
               <div class="media-body">
                 <a href="single-blog.html">
-                  <h3>The Amazing Hubble</h3>
+                  <h3>Spring data jpa</h3>
                 </a>
                 <p>02 Hours ago</p>
               </div>
@@ -142,7 +142,7 @@ function Blog() {
               <img src="image/post/post_3.png" alt="post" />
               <div class="media-body">
                 <a href="single-blog.html">
-                  <h3>Astronomy Or Astrology</h3>
+                  <h3>React context api</h3>
                 </a>
                 <p>03 Hours ago</p>
               </div>
@@ -151,7 +151,7 @@ function Blog() {
               <img src="image/post/post_4.png" alt="post" />
               <div class="media-body">
                 <a href="single-blog.html">
-                  <h3>Asteroids telescope</h3>
+                  <h3>Arrays in Javascript</h3>
                 </a>
                 <p>01 Hours ago</p>
               </div>
