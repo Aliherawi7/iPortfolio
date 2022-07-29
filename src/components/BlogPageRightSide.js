@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./BlogPageRightSide.css"
 
 function BlogPageRightSide() {
@@ -17,72 +18,72 @@ function BlogPageRightSide() {
             <h4 class="widget_title">Category</h4>
             <ul class="list cat-list">
               <li>
-                <a href="#" class="d-flex">
+                <Link to={''}>
                   <p>Java</p>
                   <p>(7)</p>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="d-flex">
+                <Link to={''}>
                   <p>Spring boot</p>
                   <p>(5)</p>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="d-flex">
+                <Link to={''}>
                   <p>Javascript</p>
                   <p>(03)</p>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="d-flex">
+                <Link to={''}>
                   <p>React Js</p>
                   <p>(4)</p>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" class="d-flex">
+                <Link to={''}>
                   <p>Spring security</p>
                   <p>(2)</p>
-                </a>
+                </Link>
               </li>
             </ul>
           </aside>
           <aside class="single_sidebar_widget popular_post_widget">
             <h3 class="widget_title">Recent Post</h3>
             <div class="media post_item">
-              <img src="image/post/post_1.png" alt="post" />
+              <img src="image/post/java.png" alt="post" />
               <div class="media-body">
-                <a href="single-blog.html">
+                <Link to={''}>
                   <h3>Binary search in java</h3>
-                </a>
+                </Link>
                 <p>January 12, 2019</p>
               </div>
             </div>
             <div class="media post_item">
-              <img src="image/post/post_2.png" alt="post" />
+              <img src="image/post/java.png" alt="post" />
               <div class="media-body">
-                <a href="single-blog.html">
+                <Link to={''}>
                   <h3>Spring data jpa</h3>
-                </a>
+                </Link>
                 <p>02 Hours ago</p>
               </div>
             </div>
             <div class="media post_item">
-              <img src="image/post/post_3.png" alt="post" />
+              <img src="image/post/java.png"alt="post" />
               <div class="media-body">
-                <a href="single-blog.html">
+                <Link to={''}>
                   <h3>React context api</h3>
-                </a>
+                </Link>
                 <p>03 Hours ago</p>
               </div>
             </div>
             <div class="media post_item">
-              <img src="image/post/post_4.png" alt="post" />
+              <img src="image/post/java.png" alt="post" />
               <div class="media-body">
-                <a href="single-blog.html">
+                <Link to={''}>
                   <h3>Arrays in Javascript</h3>
-                </a>
+                </Link>
                 <p>01 Hours ago</p>
               </div>
             </div>

@@ -81,6 +81,9 @@
     -ms-flex-align: start;
     align-items: flex-start;
 }
+.right-side .popular_post_widget .post_item img{
+    width: 30%;
+}
 
 
 .right-side .popular_post_widget .post_item .media-body {
@@ -91,11 +94,14 @@
     -ms-flex: 1;
     flex: 1;
 }
+.right-side .popular_post_widget .post_item .media-body a:hover{
+    color: #ed329d;
+}
 .right-side .popular_post_widget .post_item .media-body h3 {
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 6px;
-    transition: all 0.3s linear;
+    transition: all 0.1s linear;
     font-weight: 500;
 }
 .right-side .popular_post_widget .post_item .media-body p {
