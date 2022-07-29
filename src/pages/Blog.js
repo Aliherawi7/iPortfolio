@@ -5,7 +5,7 @@ import "./Blog.css"
 
 function Blog() {
   return (
-    <div className='blog right-to-left'>
+    <div className='blog roll-in'>
       <h1 className='blog-header'>Blog</h1>
       <div className='blog-body padding-LR-90'>
         <div className='articles'>
