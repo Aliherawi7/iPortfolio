@@ -65,12 +65,16 @@ code {
   animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
 }
 
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: .6s;
+  animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
+}
 .zoom-in {
   animation-name: zoomIn;
   animation-duration: .8s;
   animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
 }
-
 
 @keyframes left-to-right {
   from {
@@ -152,5 +156,14 @@ code {
 
   to {
     transform: translateY(0);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
