@@ -1,0 +1,36 @@
+
+.post-page .page-title{
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.post-body{
+    display: flex;
+    justify-content: space-around;
+}
+.post-details{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.post-details .post-image img{
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.post-details .post-info{
+    display: flex;
+    flex-flow: wrap;
+}
+.post-details .post-info a{
+    margin-right: 16px;
+}
+.post-details .post-texts p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.post-body .body-right-side{
+    width: 30%;
+}
