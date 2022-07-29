@@ -1,18 +1,27 @@
-*{
+body {
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+* {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --mainColor:#ed329d;
+  --mainColor: #ed329d;
 }
-a{
+
+a {
   text-decoration: none;
   font-weight: 400;
   color: inherit;
 }
-h2{
+
+h2 {
   font-size: 30px;
   font-weight: 400;
 }
@@ -32,36 +41,107 @@ code {
 ====================================================
 
  */
- .left-to-right{
+.left-to-right {
   animation-name: left-to-right;
   animation-duration: .5s;
   animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
 }
-.right-to-left{
+
+.right-to-left {
   animation-name: right-to-left;
   animation-duration: .5s;
   animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
 }
-.top-to-bottom{
+
+.top-to-bottom {
   animation-name: top-to-bottom;
   animation-duration: .8s;
   animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
 }
 
-@keyframes left-to-right{
-  from{
+.roll-in {
+  animation-name: roll-in;
+  animation-duration: .4s;
+  animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
+}
+
+.zoom-in {
+  animation-name: zoomIn;
+  animation-duration: .8s;
+  animation-timing-function: cubic-bezier(0.55, 0.01, 0.12, 0.97);
+}
+
+
+@keyframes left-to-right {
+  from {
     transform: translateX(-50vw);
   }
-  to{
+
+  to {
     transform: translateX(0);
   }
 }
-@keyframes right-to-left{
-  from{
+
+@keyframes right-to-left {
+  from {
     transform: translateX(50vw);
   }
-  to{
+
+  to {
     transform: translateX(0);
+  }
+}
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+  }
+
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes roll-in {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
   }
 }
 
