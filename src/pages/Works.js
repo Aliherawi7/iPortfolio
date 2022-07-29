@@ -8,7 +8,7 @@ function Works() {
     const [state, dispatch]= useStatevalue()
     console.log(state)
     return (
-        <div className='works margin-LR-90 right-to-left'>
+        <div className='works margin-LR-90 zoom-in'>
             <h2 className='works-title'>My Works</h2>
             <div className='works-container '>
                 {CaseStudies.map(work => {
