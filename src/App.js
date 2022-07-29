@@ -9,6 +9,7 @@ const Home = React.lazy(() => import('./pages/Home'));
 const Works = React.lazy(() => import('./pages/Works'));
 const WorkDetails = React.lazy(() => import('./pages/WorkDetails'));
 const Blog = React.lazy(()=> import('./pages/Blog'));
+const Post = React.lazy(()=> import('./pages/Post'));
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
           <Route path="/works/:id" element={<WorkDetails />} />
           <Route path="/works" element={<Works />} />
           <Route path="/blog" element={<Blog />}/>
-          <Route path="/blog/post:id" element={<Blog />}/>
+          <Route path="/blog/post:id" element={<Post />}/>
           <Route path="*" element={<Loading />} />
         </Routes>
         <Footer />
