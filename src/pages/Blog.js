@@ -11,11 +11,13 @@ function Blog() {
         <div className='articles'>
           <article className='blog-item'>
             <div className='blog-img'>
-              <img src='/image/1.png' alt='' />
+              <img src='/image/blog/spring-boot.png' alt='' />
             </div>
             <div className='blog-details'>
               <div className='title-text'>
-                <h2>Spring boot microservices</h2>
+                <Link to={""}>
+                  <h2>Spring boot</h2>
+                </Link>
                 <p>microservices are the common subject on spring boot framwork learning</p>
               </div>
               <div className='blog-info'>
@@ -27,11 +29,13 @@ function Blog() {
           </article>
           <article className='blog-item'>
             <div className='blog-img'>
-              <img src='/image/2.png' alt='' />
+              <img src='/image//blog/react.png' alt='' />
             </div>
             <div className='blog-details'>
               <div className='title-text'>
-                <h2>Spring boot microservices</h2>
+                <Link to={""}>
+                  <h2>React js</h2>
+                </Link>
                 <p>microservices are the common subject on spring boot framwork learning</p>
               </div>
               <div className='blog-info'>
@@ -43,11 +47,13 @@ function Blog() {
           </article>
           <article className='blog-item'>
             <div className='blog-img'>
-              <img src='/image/3.png' alt='' />
+              <img src='/image/blog/spring-boot.png' alt='' />
             </div>
             <div className='blog-details'>
               <div className='title-text'>
-                <h2>Spring boot microservices</h2>
+                <Link to={""}>
+                  <h2>Spring boot </h2>
+                </Link>
                 <p>microservices are the common subject on spring boot framwork learning</p>
               </div>
               <div className='blog-info'>
@@ -59,11 +65,13 @@ function Blog() {
           </article>
           <article className='blog-item'>
             <div className='blog-img'>
-              <img src='/image/1.png' alt='' />
+              <img src='/image/blog/spring-microservices.png' alt='' />
             </div>
             <div className='blog-details'>
               <div className='title-text'>
-                <h2>Spring boot microservices</h2>
+                <Link to={""}>
+                  <h2>Spring boot microservices</h2>
+                </Link>
                 <p>microservices are the common subject on spring boot framwork learning</p>
               </div>
               <div className='blog-info'>
