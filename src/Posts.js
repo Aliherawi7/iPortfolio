@@ -52,4 +52,49 @@ const posts = [
     }
 ]
 
+export const recentPosts = [
+    {
+        imgUrl: "/image/post/java.png",
+        title: "Binary search in java",
+        date:"January 12, 2019",
+    },
+    {
+        imgUrl: "/image/post/spring-data-jpa.png",
+        title: "Spring data jpa",
+        date:"2 Hours ago",
+    },
+    {
+        imgUrl: "/image/post/java.png",
+        title: "React context api",
+        date:"3 Hours ago",
+    },
+    {
+        imgUrl: "/image/post/java.png",
+        title: "Arrays in Javascript",
+        date:"1 Hours ago",
+    },
+]
+export const category = [
+    {
+        title: "Binary search in java",
+        numbers: 7,
+    },
+    {
+        title: "Spring boot",
+        numbers: 5,
+    },
+    {
+        title: "Javascript",
+        numbers: 3,
+    },
+    {
+        title: "React Js",
+        numbers: 4,
+    },
+    {
+        title: "Spring security",
+        numbers: 2,
+    },
+]
+
 export default posts
