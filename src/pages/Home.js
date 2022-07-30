@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Link, useNavigate } from "react-router-dom"
 import { actions } from '../reducer';
 import { useStatevalue } from '../stateProvider';
@@ -8,6 +8,9 @@ import Slider from '../components/Slider'
 function Home() {
     const navigate = useNavigate();
     const [state, dispatch] = useStatevalue();
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, [])
     const seeWorks = ()=>{
         dispatch({
             type: actions.ACTIVE_NAV_LINK,

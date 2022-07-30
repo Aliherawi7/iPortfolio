@@ -1,12 +1,12 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./Works.css"
 import CaseStudies from '../CaseStudies'
 import { Link } from "react-router-dom"
-import { useStatevalue } from '../stateProvider'
 
 function Works() {
-    const [state, dispatch]= useStatevalue()
-    console.log(state)
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, [])
     return (
         <div className='works margin-LR-90 zoom-in'>
             <h2 className='works-title'>My Works</h2>

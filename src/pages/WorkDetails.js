@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import CaseStudies from '../CaseStudies';
 import "./WorkDetails.css"
@@ -6,8 +6,11 @@ import "./WorkDetails.css"
 function WorkDetails() {
     const { id } = useParams();
     const work = CaseStudies[id];
-    console.log(work)
-    return (
+    useEffect(() => {
+        window.scrollTo(0, 0);
+
+    }, [])
+    return (work?
         <div className='work-details top-to-bottom'>
             <h1 className='work-title'>{work.appInfo.title}</h1>
             <div className='image-container'>
@@ -40,6 +43,7 @@ function WorkDetails() {
                 </div>
             </div>
         </div>
+        : <h1>Not found!</h1>
     )
 }
 

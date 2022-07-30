@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Link, useParams } from 'react-router-dom'
 import BlogPageRightSide from '../components/BlogPageRightSide'
 import "./Post.css"
@@ -8,6 +8,11 @@ function Post() {
   const { id } = useParams()
   let postId = parseInt(id.substring(1));
   const post = posts[postId];
+  useEffect(() => {
+    window.scrollTo(0,0);
+
+  }, [])
+  
   return (
     <div className='post-page padding-LR-90 fade-in'>
       <h2 className='page-title'>{post.title}</h2>
