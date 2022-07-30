@@ -12,7 +12,7 @@ function Blog() {
         <div className='articles'>
           {posts.map((post) => {
             return (
-              <article className='blog-item'>
+              <article className='blog-item' key={post.id}>
                 <div className='blog-img'>
                   <img src={post.pictureUrl} alt='' />
                 </div>
