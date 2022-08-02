@@ -6,7 +6,7 @@ import posts from '../Posts'
 function Blog() {
 
   return (
-    <div className='blog roll-in'>
+    <div className='blog fade-in'>
       <h1 className='blog-header'>Blog</h1>
       <div className='blog-body padding-LR-90'>
         <div className='articles'>
