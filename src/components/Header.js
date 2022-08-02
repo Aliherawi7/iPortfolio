@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { actions } from '../reducer';
 import { useStatevalue } from '../stateProvider'
 import "./Header.css"
@@ -8,6 +8,7 @@ import "./Header.css"
 function Header() {
     //this state is for activing the header link
     const [{navActive}, dispatch] = useStatevalue();
+    const navigate = useNavigate();
     const [state, setState] = useState(navActive);
     useEffect(()=>{
         setState(navActive)
@@ -21,9 +22,16 @@ function Header() {
         })
         setState(path)
     }
+    const goHome = ()=>{
+        dispatch({
+            type: actions.ACTIVE_NAV_LINK,
+            item:"/"
+        })
+        navigate("/");
+    }
     return (
         <header className='header padding-LR-90'>
-            <Link to="/">
+            <Link to="/" onClick={goHome}>
                 <img src="/image/AH1.png" className='nav-brand' />
             </Link>
             <nav>
