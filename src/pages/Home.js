@@ -10,6 +10,7 @@ function Home() {
     const [state, dispatch] = useStatevalue();
     useEffect(() => {
         window.scrollTo(0,0);
+        
     }, [])
     const seeWorks = ()=>{
         dispatch({
