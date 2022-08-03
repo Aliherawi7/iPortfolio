@@ -11,7 +11,7 @@ function WorkDetails() {
 
     }, [])
     return (work?
-        <div className='work-details top-to-bottom'>
+        <div className='work-details padding-LR-90 top-to-bottom'>
             <h1 className='work-title'>{work.appInfo.title}</h1>
             <div className='image-container'>
                 <img src={work.image.address} alt={work.image.alt} />

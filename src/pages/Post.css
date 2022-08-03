@@ -13,6 +13,7 @@
     width: 60%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 .post-details .post-image img{
     width: 100%;
@@ -33,4 +34,16 @@
 
 .post-body .body-right-side{
     width: 30%;
+}
+
+@media(max-width: 768px){
+    .post-body {
+        flex-direction: column;
+    }
+    .post-body .post-details ,
+    .post-body .body-right-side{
+        width: 100%;
+    }
+    
+
 }

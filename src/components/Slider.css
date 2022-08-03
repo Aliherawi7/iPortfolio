@@ -1,15 +1,17 @@
 .slider{
     display: flex;
-    justify-content: space-between;
+    flex-flow: wrap;
+    justify-content: center;
     align-items: center;
 }
 .slider .slider-image{
-    max-width: 400px;
+    max-width: 500px;
     object-fit: contain;
     margin: 0 30px;
 }
 .slider .slider-text{
-    max-width: 400px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .case-studies-container{
@@ -29,4 +31,17 @@
 .case-studies-container i:hover{
     background-color: #ddd;
 
+}
+
+@media(max-width:768px){
+    .case-studies-container{
+        padding: 20px 10px;
+        width: 100%;
+    
+    }
+    
+    .slider .slider-image{
+        max-width: 90%;
+        margin: 0;
+    }
 }

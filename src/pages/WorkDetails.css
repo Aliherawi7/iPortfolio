@@ -35,10 +35,10 @@
 }
 @media(max-width:768px){
     .details-text{
-        width: 80%;
+        width: 100%;
     }
     .work-details .image-container img{
-        width: 80%;
+        width: 100%;
         margin: auto;
     }
     .work-links i{

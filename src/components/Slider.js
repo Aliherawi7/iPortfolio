@@ -50,9 +50,6 @@ function Container1({ appInfo, image, animate }) {
             <div className='slider-text'>
                 <h3 className='slider-header-2'>{appInfo.header}</h3>
                 <h2 className='slider-header-1'>{appInfo.title}</h2>
-                <p className='slider-text-body'>
-                    {appInfo.body}
-                </p>
             </div>
         </div>
     )
@@ -64,9 +61,6 @@ function Container2({ appInfo, image, animate }) {
             <div className='slider-text'>
                 <h3 className='slider-header-2'>{appInfo.header}</h3>
                 <h2 className='slider-header-1'>{appInfo.title}</h2>
-                <p className='slider-text-body'>
-                    {appInfo.body}
-                </p>
             </div>
         </div>
     )

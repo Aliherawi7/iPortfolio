@@ -23,7 +23,7 @@
 }
 
 .introduction .intro-text {
-    width: 80%;
+    width: 60%;
 }
 
 .intro-text p {
@@ -73,6 +73,7 @@
 .expert-in-container .experts {
     margin-top: 20px;
     display: flex;
+    flex-flow: wrap;
     justify-content: space-between;
 }
 
@@ -113,11 +114,6 @@
     background-color: #ebf7f8;
 }
 
-.case-studies h2 {
-    font-size: 30px;
-    font-weight: 400;
-}
-
 .hire-me-box {
     display: flex;
     justify-content: space-between;
@@ -150,7 +146,11 @@
 
 
 @media (max-width: 768px){
-    .introduction .profile-container .profile{
-         width: 180px;
+    .introduction .intro-text{
+        width: 100%;
     }
+    .introduction .profile-container .profile{
+        display: none;
+    }
+
 }
