@@ -9,10 +9,10 @@ function Header() {
     //this state is for activing the header link
     const [{navActive}, dispatch] = useStatevalue();
     const navigate = useNavigate();
-    const [state, setState] = useState(navActive);
+    const [state, setState] = useState(navActive+"");
     useEffect(()=>{
-        setState(navActive)
-        console.log(navActive)
+        setState(navActive+"")
+        
     },[navActive])
 
     const setActive = (path)=>{
@@ -36,13 +36,13 @@ function Header() {
             </Link>
             <nav>
                 <Link to={"/"} onClick={()=>setActive("/")}>
-                    <span className={state=="/" ? "active":""}>Home</span>
+                    <span className={state == "/" ? "active":""}>Home</span>
                 </Link>
                 <Link to={"/works"} onClick={()=>setActive("/works")}>
-                    <span className={state=="/works" ? "active":""}>Works</span>
+                    <span className={state.includes("/works") ? "active":""}>Works</span>
                 </Link>
                 <Link to={"/blog"} onClick={()=>setActive("/blog")}>
-                    <span className={state=="/blog" ? "active":""}>Blog</span>
+                    <span className={state.includes("/blog") ? "active":""}>Blog</span>
                 </Link>
                 <button className='hire-me'>
                     Hire Me!
