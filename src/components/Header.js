@@ -38,7 +38,7 @@ function Header() {
             <Link to="/" onClick={goHome}>
                 <img src="/image/AH1.png" className='nav-brand' />
             </Link>
-            <nav style={{ right: showMenu ? "0" : "-250px" }}>
+            <nav style={{right: showMenu? "0":"-250px"}}>
                 <Link to={"/"} onClick={() => setActive("/")}>
                     <span className={state == "/" ? "active" : ""}>Home</span>
                 </Link>
@@ -58,7 +58,6 @@ function Header() {
                     <div></div>
                 </div>
             </div>
-
 
         </header>
     )

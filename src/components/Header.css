@@ -124,7 +124,7 @@
     .header nav{
         padding: 100px 0 0 20px;
         display: flex;
-        position: absolute;
+        position: fixed;
         flex-direction: column;
         width: 200px;
         height: 100vh;
@@ -132,7 +132,7 @@
         align-items: flex-start;
         background-color: #fff;
         box-shadow: 0px 20px 10px 5px #00000029;
-        transition: right .5s cubic-bezier(0.74, 0.02, 0.23, 1.01);
+        transition:right .5s cubic-bezier(0.74, 0.02, 0.23, 1.01) ;
     }
     .header nav span{
         margin: 0;
