@@ -1,16 +1,17 @@
 import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import CaseStudies from '../CaseStudies';
+import NotFound from '../components/NotFound';
+import ProjectDetails from '../Constants/ProjectsDetails';
 import "./WorkDetails.css"
 
 function WorkDetails() {
     const { id } = useParams();
-    const work = CaseStudies[id];
+    const work = ProjectDetails[id];
     useEffect(() => {
         window.scrollTo(0, 0);
 
     }, [])
-    return (work?
+    return (work ?
         <div className='work-details padding-LR-90 top-to-bottom'>
             <h1 className='work-title'>{work.appInfo.title}</h1>
             <div className='image-container'>
@@ -43,7 +44,7 @@ function WorkDetails() {
                 </div>
             </div>
         </div>
-        : <h1>Not found!</h1>
+        : <NotFound />
     )
 }
 
