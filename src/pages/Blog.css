@@ -37,7 +37,7 @@
     transition: color .1s linear;
 }
 .articles .blog-item .blog-details h2:hover{
-    color: #ed329d;
+    color: var(mainColor);
 }
 
 
