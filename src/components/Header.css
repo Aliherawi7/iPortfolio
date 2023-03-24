@@ -1,4 +1,4 @@
-.header{
+.header {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -11,51 +11,67 @@
     background-color: #fff;
     z-index: 1000;
 }
-.header .nav-brand{
+
+.header .nav-brand {
     width: 60px;
 }
 
-.header nav span{
+.header nav {
+    display: flex;
+    align-items: center;
+}
+
+.header nav span {
     box-sizing: border-box;
-    padding:5px 15px;
+    padding: 5px 15px;
     margin: 0 5px;
     text-decoration: none;
     color: #000;
     border: 1px solid #fff;
     font-weight: 500;
 }
-.header nav span:hover{
+
+.header nav span:hover {
     border-color: #ddd;
     border-radius: 30px;
-    border: 1px solid #ed329d;
-    color: #ed329d;
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
     cursor: pointer;
     background-color: #fff;
     transition: background 0.4s ease-in-out;
 }
-.header nav .active{
-    color: #ee14dc;
+
+.header nav .active {
+    color: var(--mainColor);
+    font-weight: 700;
 }
 
-.header .hire-me{
+.header .hire-me {
     border-radius: 30px;
-    border: 1px solid #ed329d;
+    border: 1px solid var(--mainColor);
     color: #fff;
-    background-color: #ed329d;
+    background-color: var(--mainColor);
     padding: 8px 14px;
     cursor: pointer;
     margin-right: 20px;
     transition: background 0.4s ease-in-out;
 }
 
+.header .dark_mode {
+    font-size: 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 /*=====================================
   == burger menu on max-width: 768px ==
   ===================================== */
 
-.toggle-menu{
+.toggle-menu {
     display: none;
 }
-.toggle-menu .toggle{
+
+.toggle-menu .toggle {
     position: absolute;
     top: 5px;
     right: 10px;
@@ -64,15 +80,17 @@
     opacity: 0.001;
     z-index: 101;
 }
+
 .burger {
     top: 3px;
     right: 40px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .burger div {
     width: 100%;
     height: 3px;
@@ -84,26 +102,32 @@
     transition: all 0.4s ease;
     margin: 10px 0;
 }
-.burger div::before, .burger div::after {
+
+.burger div::before,
+.burger div::after {
     content: '';
     background-color: #000;
     width: 100%;
     height: 3px;
     position: absolute;
-    top: -15px;
+    top: -12px;
 }
+
 .burger div::after {
-    top: 15px;
+    top: 12px;
 }
-.toggle:checked + .burger div{
+
+.toggle:checked+.burger div {
     transform: rotate(180deg);
 }
-.toggle:checked + .burger div:after,
-.toggle:checked + .burger div::before{
+
+.toggle:checked+.burger div:after,
+.toggle:checked+.burger div::before {
     top: 0;
     transform: rotate(90deg);
 }
-.toggle:checked + .burger{
+
+.toggle:checked+.burger {
     transform: rotate(45deg);
 }
 
@@ -113,15 +137,16 @@
 
 .header .hire-me:hover {
     background-color: #fff;
-    color: #ed329d;
+    color: var(--mainColor);
 }
 
 
-@media(max-width:768px){
-    .toggle-menu{
+@media(max-width:768px) {
+    .toggle-menu {
         display: flex;
     }
-    .header nav{
+
+    .header nav {
         padding: 100px 0 0 20px;
         display: flex;
         position: fixed;
@@ -132,12 +157,14 @@
         align-items: flex-start;
         background-color: #fff;
         box-shadow: 0px 20px 10px 5px #00000029;
-        transition:right .5s cubic-bezier(0.74, 0.02, 0.23, 1.01) ;
+        transition: right .5s cubic-bezier(0.74, 0.02, 0.23, 1.01);
     }
-    .header nav span{
+
+    .header nav span {
         margin: 0;
     }
-    .header nav a{
+
+    .header nav a {
         margin-bottom: 20px;
     }
 }
