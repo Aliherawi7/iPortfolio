@@ -43,7 +43,7 @@
     padding: 15px;
     font-size: 12px;
     font-weight: 400;
-    border: 1px solid #ed329d;
+    border: 1px solid var(--mainColor);
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
@@ -52,7 +52,7 @@
     transition: background 0.4s ease-in-out;
 }
 .single_sidebar_widget .search-btn:hover {
-    background: #ed329d;
+    background: var(--mainColor);
     color: #fff !important;
 }
 .right-side .post_category_widget .cat-list{
@@ -70,7 +70,7 @@
     color: #888888;
 }
 .right-side .post_category_widget .cat-list li:hover{
-    color: #ed329d;
+    color: var(--mainColor);
     background-color: #ddd;
 }
 
@@ -97,7 +97,7 @@
     flex: 1;
 }
 .right-side .popular_post_widget .post_item .media-body a:hover{
-    color: #ed329d;
+    color: var(--mainColor);
 }
 .right-side .popular_post_widget .post_item .media-body h3 {
     font-size: 14px;
