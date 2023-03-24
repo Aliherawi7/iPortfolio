@@ -17,13 +17,17 @@
     max-width: max-content;
     margin: 20px 10px;
     padding: 10px;
+    border-radius: 10px;
     transition: box-shadow .3s ease-in-out;
 }
 .works .work-tool{
     margin-top: 10px;
 }
+.works .work-tool a{
+    font-size: 14px;
+}
 .works .work:hover img{
-    transform: scale(1.1);  
+    transform: scale(1.13);  
 }
 .works .work:hover{
     box-shadow: 1px 1px 10px 10px #dedede; 
@@ -36,7 +40,8 @@
     overflow: hidden;
 }
 .works .work .image-container img{
-    width: 400px;
+    width: 320px;
+    height: 200px;
     image-rendering: pixelated;
     image-rendering: -webkit-optimize-contrast;
     transition: transform .3s;
@@ -50,11 +55,13 @@
 @media(max-width:992px){
     .works .work .image-container img{
         width: 250px;
+        height: unset;
     }
 }
 @media(max-width:768px){
     .works .work .image-container img{
-        width: 100%;  
+        width: 100%; 
+        height: unset; 
     }
     .works .work .image-container{
         padding: 0;
