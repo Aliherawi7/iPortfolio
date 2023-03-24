@@ -1,0 +1,9 @@
+.about_me{
+    padding-bottom: 30px;
+}
+
+.list_container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
