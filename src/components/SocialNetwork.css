@@ -1,0 +1,19 @@
+.social_network{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_network a {
+    color: #424141;
+}
+
+.social_network a:hover {
+    color: var(--i);
+}
+
+@media (max-width:576px){
+    .social_network{
+        width: 120px;
+    }
+}
