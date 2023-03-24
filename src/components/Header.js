@@ -11,7 +11,8 @@ function Header() {
     const navigate = useNavigate();
     const [state, setState] = useState(navActive + "");
     const [showMenu, setShowMenu] = useState(false);
-    
+    const [darkMode, setDarkMode] = useState(false);
+
     // get sctived nav link from data layer
     useEffect(() => {
         setState(navActive + "")
@@ -38,7 +39,7 @@ function Header() {
             <Link to="/" onClick={goHome}>
                 <img src="/image/AH1.png" className='nav-brand' />
             </Link>
-            <nav style={{right: showMenu? "0":"-250px"}}>
+            <nav style={{ right: showMenu ? "0" : "-250px" }}>
                 <Link to={"/"} onClick={() => setActive("/")}>
                     <span className={state == "/" ? "active" : ""}>Home</span>
                 </Link>
@@ -51,10 +52,13 @@ function Header() {
                 <button className='hire-me'>
                     Hire Me!
                 </button>
+                {/* <button className='dark_mode' onClick={() => setDarkMode(!darkMode)}>
+                    <i className={darkMode ? "bi bi-moon-fill" : "bi bi-sun-fill"}></i>
+                </button> */}
             </nav>
             <div className='toggle-menu'>
-                <input type="checkbox" onChange={() => setShowMenu(!showMenu)} class="toggle" />
-                <div class="burger">
+                <input type="checkbox" onChange={() => setShowMenu(!showMenu)} className="toggle" />
+                <div className="burger">
                     <div></div>
                 </div>
             </div>
