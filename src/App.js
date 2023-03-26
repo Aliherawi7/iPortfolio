@@ -7,8 +7,8 @@ import NotFound from './components/NotFound';
 const Header = React.lazy(() => import('./components/Header'));
 const Footer = React.lazy(() => import('./components/Footer'));
 const Home = React.lazy(() => import('./pages/Home'));
-const Works = React.lazy(() => import('./pages/Works'));
-const WorkDetails = React.lazy(() => import('./pages/WorkDetails'));
+const Projects = React.lazy(() => import('./pages/Projects'));
+const ProjectDetails = React.lazy(() => import('./pages/ProjectDetails'));
 const Blog = React.lazy(() => import('./pages/Blog'));
 const Post = React.lazy(() => import('./pages/Post'));
 
@@ -20,8 +20,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/works/:id" element={<WorkDetails />} />
-          <Route path="/works" element={<Works />} />
+          <Route path="/projects/:id" element={<ProjectDetails />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/post:id" element={<Post />} />
           <Route path="*" element={<NotFound />} />
