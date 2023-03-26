@@ -4,7 +4,7 @@ import { actions } from '../reducer';
 import { useStatevalue } from '../stateProvider';
 import "./Home.css"
 import Slider from "../components/Slider"
-import ProjectDetails from '../Constants/ProjectsDetails';
+import ProjectsDetail from '../Constants/ProjectsDetail';
 import Skills from '../Constants/Skills';
 import Skill from '../components/Skill';
 import SocialNetworks from '../components/SocialNetworks';
@@ -18,12 +18,23 @@ function Home() {
         window.scrollTo(0, 0);
 
     }, [])
-    const seeWorks = () => {
+    const seeProjects = () => {
         dispatch({
             type: actions.ACTIVE_NAV_LINK,
-            item: "/works"
+            item: "/projects"
         })
-        navigate("./works");
+        navigate("./projects");
+    }
+    const downloadResume = () => {
+        fetch("Ali-herawi-resume.pdf").then(res => {
+            res.blob().then(blob => {
+                const fileURL = window.URL.createObjectURL(blob);
+                let fileLink = document.createElement('a');
+                fileLink.href = fileURL;
+                fileLink.download = "Ali-herawi-resume.pdf"
+                fileLink.click();
+            })
+        })
     }
     return (
         <main className='home left-to-right'>
@@ -34,8 +45,11 @@ function Home() {
                         <h1>Ali Herawi</h1>
                         <h3>I'm fullstack developer. I make awesome web applications using react js and spring boot.</h3>
                         <SocialNetworks size='large' />
-                        <button className='see-my-works' onClick={seeWorks}>
-                            See My Works
+                        <button className='btn_custom see-my-works' onClick={downloadResume}>
+                            Download CV
+                        </button>
+                        <button className='btn_custom see-my-projects' onClick={seeProjects}>
+                            See My Projects
                         </button>
                     </div>
                     <div className='profile-container'>
@@ -50,7 +64,7 @@ function Home() {
                     <div className='skills'>
                         {Skills.map(item => {
                             return (
-                                <Skill icon={item.icon} name={item.name} color={item.color} level={item.level} />
+                                <Skill key={item.name} icon={item.icon} name={item.name} color={item.color} level={item.level} />
                             )
                         })}
                     </div>
@@ -58,7 +72,7 @@ function Home() {
             </div>
             <div className='case-studies diff_background section'>
                 <h2 className='section_title margin-LR-90'>Projects</h2>
-                <Slider products={ProjectDetails} delay={5} />
+                <Slider products={ProjectsDetail} delay={5} />
             </div>
 
             <div className='hire-me-box section'>
@@ -69,7 +83,7 @@ function Home() {
                             Let's meke something more meaningful and make things more vitual conceptual and packed with a very user friendly
                         </p>
                     </div>
-                    <button className='hire-me'>Hire Me!</button>
+                    <a href='https://linkedin.com/in/ali-herawi' className='btn_custom'>Hire Me!</a>
                 </div>
             </div>
         </main>
