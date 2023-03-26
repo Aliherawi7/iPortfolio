@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import "./Projects.css"
 import ProjectsDetail from '../Constants/ProjectsDetail'
 import { Link } from "react-router-dom"
+import { baseURL } from '../Constants/BaseUrl'
 
 function Projects() {
     useEffect(() => {

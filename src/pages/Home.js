@@ -9,6 +9,7 @@ import Skills from '../Constants/Skills';
 import Skill from '../components/Skill';
 import SocialNetworks from '../components/SocialNetworks';
 import AboutMe from '../components/AboutMe';
+import { baseURL } from '../Constants/BaseUrl';
 
 
 function Home() {
@@ -23,7 +24,7 @@ function Home() {
             type: actions.ACTIVE_NAV_LINK,
             item: "/projects"
         })
-        navigate("./projects");
+        navigate("/projects");
     }
     const downloadResume = () => {
         fetch("Ali-herawi-resume.pdf").then(res => {
@@ -53,7 +54,7 @@ function Home() {
                         </button>
                     </div>
                     <div className='profile-container'>
-                        <img src='%PUBLIC_URL%/image/person1.png' className='profile' />
+                        <img src={baseURL + '/image/person1.png'} className='profile' />
                     </div>
                 </div>
             </div>

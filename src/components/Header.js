@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import { baseURL } from '../Constants/BaseUrl';
 import { actions } from '../reducer';
 import { useStatevalue } from '../stateProvider'
 import "./Header.css"
@@ -36,8 +37,8 @@ function Header() {
     }
     return (
         <header className='header padding-LR-90'>
-            <Link to="/" onClick={goHome}>
-                <img src="/image/AH1.png" className='nav-brand' />
+            <Link to={"/"} onClick={goHome}>
+                <img src={baseURL + "/image/AH1.png"} className='nav-brand' />
             </Link>
             <nav style={{ right: showMenu ? "0" : "-250px" }}>
                 <Link to={"/"} onClick={() => setActive("/")}>

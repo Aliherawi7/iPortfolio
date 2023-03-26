@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import BlogPageRightSide from '../components/BlogPageRightSide'
 import "./Blog.css"
 import posts from '../Constants/Posts'
+import { baseURL } from '../Constants/BaseUrl'
 function Blog() {
 
   return (
@@ -18,7 +19,7 @@ function Blog() {
                 </div>
                 <div className='blog-details'>
                   <div className='title-text'>
-                    <Link to={"/blog/post:" + post.id}>
+                    <Link to={baseURL + "/blog/post:" + post.id}>
                       <h2>{post.title}</h2>
                     </Link>
                     <p>{post.postBody.text}</p>
