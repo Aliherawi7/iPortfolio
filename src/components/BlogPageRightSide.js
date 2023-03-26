@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./BlogPageRightSide.css"
-import { recentPosts, category } from '../Posts'
+import { recentPosts, category } from '../Constants/Posts'
 
 function BlogPageRightSide() {
   return (
