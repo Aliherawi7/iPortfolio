@@ -16,7 +16,7 @@
 
 .slider-container .slides .slides-container {
     display: flex;
-    transition : transform 2s cubic-bezier(0.71, 0.15, 0.3, 0.81);
+    transition: transform 2s cubic-bezier(0.71, 0.15, 0.3, 0.81);
 }
 
 .slider-item {
@@ -68,11 +68,7 @@
 }
 
 .slider-item .image-info a {
-    background-color: var(--mainColor);
-    color: #fff;
-    border-radius: 2px;
     margin-top: 30px;
-    padding: 10px 15px;
 }
 
 .slide-to-left,
