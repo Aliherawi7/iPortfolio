@@ -41,8 +41,8 @@ function Header() {
                 <img src={baseURL + "/image/AH1.png"} className='nav-brand' />
             </Link>
             <nav style={{ right: showMenu ? "0" : "-250px" }}>
-                <Link to={"/"} onClick={() => setActive("/")}>
-                    <span className={state == "/" ? "active" : ""}>Home</span>
+                <Link to={baseURL + "/"} onClick={() => setActive("/")}>
+                    <span className={state == baseURL + "/" ? "active" : ""}>Home</span>
                 </Link>
                 <Link to={"/projects"} onClick={() => setActive("/projects")}>
                     <span className={state.includes("/projects") ? "active" : ""}>Projects</span>
