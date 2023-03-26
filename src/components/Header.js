@@ -43,15 +43,15 @@ function Header() {
                 <Link to={"/"} onClick={() => setActive("/")}>
                     <span className={state == "/" ? "active" : ""}>Home</span>
                 </Link>
-                <Link to={"/works"} onClick={() => setActive("/works")}>
-                    <span className={state.includes("/works") ? "active" : ""}>Works</span>
+                <Link to={"/projects"} onClick={() => setActive("/projects")}>
+                    <span className={state.includes("/projects") ? "active" : ""}>Projects</span>
                 </Link>
                 <Link to={"/blog"} onClick={() => setActive("/blog")}>
                     <span className={state.includes("/blog") ? "active" : ""}>Blog</span>
                 </Link>
-                <button className='hire-me'>
+                <a href='https://linkedin.com/in/ali-herawi' className='btn_custom hire_me'>
                     Hire Me!
-                </button>
+                </a>
                 {/* <button className='dark_mode' onClick={() => setDarkMode(!darkMode)}>
                     <i className={darkMode ? "bi bi-moon-fill" : "bi bi-sun-fill"}></i>
                 </button> */}
