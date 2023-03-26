@@ -12,7 +12,7 @@ function Header() {
     const navigate = useNavigate();
     const [state, setState] = useState(navActive + "");
     const [showMenu, setShowMenu] = useState(false);
-    const [darkMode, setDarkMode] = useState(false);
+    //const [darkMode, setDarkMode] = useState(false);
 
     // get sctived nav link from data layer
     useEffect(() => {
@@ -31,7 +31,7 @@ function Header() {
     const goHome = () => {
         dispatch({
             type: actions.ACTIVE_NAV_LINK,
-            item: "/"
+            item: baseURL + "/"
         })
         navigate(baseURL + "/");
     }
@@ -41,7 +41,7 @@ function Header() {
                 <img src={baseURL + "/image/AH1.png"} className='nav-brand' />
             </Link>
             <nav style={{ right: showMenu ? "0" : "-250px" }}>
-                <Link to={baseURL + "/"} onClick={() => setActive("/")}>
+                <Link to={baseURL + "/"} onClick={() => setActive(baseURL + "/")}>
                     <span className={state == baseURL + "/" ? "active" : ""}>Home</span>
                 </Link>
                 <Link to={"/projects"} onClick={() => setActive("/projects")}>
