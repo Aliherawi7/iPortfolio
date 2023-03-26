@@ -1,0 +1,41 @@
+.modal {
+    display: flex;
+    position: fixed;
+    border-radius: 5px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    padding: 0px;
+    top: 40px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    z-index: 1002;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal img {
+    width: 80%;
+}
+
+
+
+.modal h2 {
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.modal button {
+    margin: 5px 20px !important;
+    padding: 5px 20px !important;
+}
+
+@media(max-width: 768) {
+    .modal {
+        width: 60%;
+        left: 20%;
+        top: 40%;
+    }
+}
