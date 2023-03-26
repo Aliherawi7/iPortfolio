@@ -15,7 +15,7 @@ function Skill({ name, icon, level, color }) {
                     <span>{icon}</span>
                     <p>{name}</p>
                 </div>
-                <span>{level+"%"}</span>
+                <span>{level + "%"}</span>
             </div>
             <div className='bar' >
                 <span style={barStyles}></span>

@@ -53,7 +53,7 @@ function Home() {
                         </button>
                     </div>
                     <div className='profile-container'>
-                        <img src='./image/person1.png' className='profile' />
+                        <img src='%PUBLIC_URL%/image/person1.png' className='profile' />
                     </div>
                 </div>
             </div>

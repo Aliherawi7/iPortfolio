@@ -2,7 +2,7 @@ const ProjectsDetail = [
     {
         id: 0,
         image: {
-            address: "/image/1.png",
+            address: "%PUBLIC_URL%/image/1.png",
             alt: "Sigma app"
         },
         appInfo: {
@@ -31,9 +31,9 @@ const ProjectsDetail = [
                 "404 Error(not found)"
             ],
             preview: [
-                "/image/projectsImages/sigma-home.png",
-                "/image/projectsImages/sigma-chat.png",
-                "/image/projectsImages/sigma-profile.png"
+                "%PUBLIC_URL%/image/projectsImages/sigma-home.png",
+                "%PUBLIC_URL%/image/projectsImages/sigma-chat.png",
+                "%PUBLIC_URL%/image/projectsImages/sigma-profile.png"
             ],
             links: {
                 github: "https://github.com/Aliherawi7/sigma-ui",
@@ -47,7 +47,7 @@ const ProjectsDetail = [
     {
         id: 1,
         image: {
-            address: "/image/2.png",
+            address: "%PUBLIC_URL%/image/2.png",
             alt: "eShop store"
         },
         appInfo: {
@@ -79,8 +79,8 @@ const ProjectsDetail = [
                 "404 Error(not found)",
             ],
             preview: [
-                "/image/projectsImages/eshop-admin-panel.png",
-                "/image/projectsImages/eshop-store-ui.png"
+                "%PUBLIC_URL%/image/projectsImages/eshop-admin-panel.png",
+                "%PUBLIC_URL%/image/projectsImages/eshop-store-ui.png"
             ],
             links: {
                 github: "https://github.com/Aliherawi7/eshop-store",
@@ -92,7 +92,7 @@ const ProjectsDetail = [
     {
         id: 2,
         image: {
-            address: "/image/3.png",
+            address: "%PUBLIC_URL%/image/3.png",
             alt: "Resume Builder"
         },
         appInfo: {
@@ -126,8 +126,8 @@ const ProjectsDetail = [
                 "404 Error(not found)",
             ],
             preview: [
-                "/image/projectsImages/resume-build-page.png",
-                "/image/projectsImages/resume-builder-download-page.png"
+                "%PUBLIC_URL%/image/projectsImages/resume-build-page.png",
+                "%PUBLIC_URL%/image/projectsImages/resume-builder-download-page.png"
             ],
             links: {
                 github: "https://github.com/Aliherawi7/resume-builder",
@@ -139,7 +139,7 @@ const ProjectsDetail = [
     {
         id: 3,
         image: {
-            address: "/image/4.png",
+            address: "%PUBLIC_URL%/image/4.png",
             alt: "Music Player"
         },
         appInfo: {
@@ -156,7 +156,7 @@ const ProjectsDetail = [
     {
         id: 4,
         image: {
-            address: "/image/5.png",
+            address: "%PUBLIC_URL%/image/5.png",
             alt: "NetFlix clone"
         },
         appInfo: {
@@ -185,7 +185,7 @@ const ProjectsDetail = [
                 "404 Error(not found)",
             ],
             preview: [
-                "/image/projectsImages/",
+                "%PUBLIC_URL%/image/projectsImages/",
             ],
             links: {
                 github: "https://github.com/Aliherawi7/Netflix-Af-clone",
