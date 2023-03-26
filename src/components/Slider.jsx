@@ -49,7 +49,7 @@ function Slider({ products = [], delay = 8, }) {
                                     <div className='image-info'>
                                         <h1 className='slider-header-2'>{item?.appInfo.title}</h1>
                                         <h2 className='slider-header-1'>{item?.appInfo.header}</h2>
-                                        <Link to={'/works/' + item?.id} className="btn_custom">more details</Link>
+                                        <Link to={'/projects/' + item?.id} className="btn_custom">more details</Link>
                                     </div>
                                 </div>
                             )
