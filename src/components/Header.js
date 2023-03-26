@@ -33,11 +33,11 @@ function Header() {
             type: actions.ACTIVE_NAV_LINK,
             item: "/"
         })
-        navigate("/");
+        navigate(baseURL + "/");
     }
     return (
         <header className='header padding-LR-90'>
-            <Link to={"/"} onClick={goHome}>
+            <Link to={baseURL + "/"} onClick={goHome}>
                 <img src={baseURL + "/image/AH1.png"} className='nav-brand' />
             </Link>
             <nav style={{ right: showMenu ? "0" : "-250px" }}>
