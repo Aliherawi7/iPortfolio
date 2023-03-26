@@ -24,7 +24,7 @@ function App() {
           <Route path="/projects/:id" element={<ProjectDetails />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/post:id" element={<Post />} />
+          <Route path={baseURL + "/blog/post:id"} element={<Post />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
