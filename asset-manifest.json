@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/iPortfolio/static/css/main.7a7d3b68.css",
-    "main.js": "/iPortfolio/static/js/main.193e90ba.js",
+    "main.js": "/iPortfolio/static/js/main.2a8ca9a8.js",
     "static/css/691.67272157.chunk.css": "/iPortfolio/static/css/691.67272157.chunk.css",
-    "static/js/691.bd36b49e.chunk.js": "/iPortfolio/static/js/691.bd36b49e.chunk.js",
+    "static/js/691.fabd632d.chunk.js": "/iPortfolio/static/js/691.fabd632d.chunk.js",
     "static/css/638.0cccd59b.chunk.css": "/iPortfolio/static/css/638.0cccd59b.chunk.css",
     "static/js/638.7527a64c.chunk.js": "/iPortfolio/static/js/638.7527a64c.chunk.js",
     "static/css/587.817ee573.chunk.css": "/iPortfolio/static/css/587.817ee573.chunk.css",
@@ -23,9 +23,9 @@
     "static/media/bootstrap-icons.woff2?": "/iPortfolio/static/media/bootstrap-icons.66e4109ec6241c76fdcf.woff2",
     "index.html": "/iPortfolio/index.html",
     "main.7a7d3b68.css.map": "/iPortfolio/static/css/main.7a7d3b68.css.map",
-    "main.193e90ba.js.map": "/iPortfolio/static/js/main.193e90ba.js.map",
+    "main.2a8ca9a8.js.map": "/iPortfolio/static/js/main.2a8ca9a8.js.map",
     "691.67272157.chunk.css.map": "/iPortfolio/static/css/691.67272157.chunk.css.map",
-    "691.bd36b49e.chunk.js.map": "/iPortfolio/static/js/691.bd36b49e.chunk.js.map",
+    "691.fabd632d.chunk.js.map": "/iPortfolio/static/js/691.fabd632d.chunk.js.map",
     "638.0cccd59b.chunk.css.map": "/iPortfolio/static/css/638.0cccd59b.chunk.css.map",
     "638.7527a64c.chunk.js.map": "/iPortfolio/static/js/638.7527a64c.chunk.js.map",
     "587.817ee573.chunk.css.map": "/iPortfolio/static/css/587.817ee573.chunk.css.map",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.7a7d3b68.css",
-    "static/js/main.193e90ba.js"
+    "static/js/main.2a8ca9a8.js"
   ]
 }
