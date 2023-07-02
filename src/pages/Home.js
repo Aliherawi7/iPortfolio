@@ -44,7 +44,7 @@ function Home() {
                     <div className='intro-text'>
                         <p>Hello, my name is</p>
                         <h1>Ali Herawi</h1>
-                        <h3>I'm fullstack developer. I make awesome web applications using react js and spring boot.</h3>
+                        <h3>I'm fullstack developer. I develop awesome web applications using react js and spring boot.</h3>
                         <SocialNetworks size='large' />
                         <button className='btn_custom see-my-works' onClick={downloadResume}>
                             Download CV
