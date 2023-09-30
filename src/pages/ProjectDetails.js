@@ -12,7 +12,6 @@ function ProjectDetails() {
     const [projectImage, setProjectImage] = useState("")
     useEffect(() => {
         window.scrollTo(0, 0);
-
     }, [])
 
     function modalSlide(previosImage, direction) {

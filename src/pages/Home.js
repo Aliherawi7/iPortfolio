@@ -27,12 +27,12 @@ function Home() {
         navigate("/projects");
     }
     const downloadResume = () => {
-        fetch("Ali-herawi-resume.pdf").then(res => {
+        fetch("Ali-herawi-v2.pdf").then(res => {
             res.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let fileLink = document.createElement('a');
                 fileLink.href = fileURL;
-                fileLink.download = "Ali-herawi-resume.pdf"
+                fileLink.download = "Ali-herawi-resume-v2.pdf"
                 fileLink.click();
             })
         })
@@ -44,7 +44,13 @@ function Home() {
                     <div className='intro-text'>
                         <p>Hello, my name is</p>
                         <h1>Ali Herawi</h1>
-                        <h3>I'm fullstack developer. I develop awesome web applications using react js and spring boot.</h3>
+                        <h3>
+                            Software Engineer with over 4 years of full stack web development experience specializing in Spring,
+                            React and Angular. Expertise in front-end development, demonstrated through successful projects
+                            and strong coding skills. Strong problem-solving abilities and a collaborative team player.
+                            Ready to contribute technical expertise and drive successful outcomes in a dynamic work environment.
+
+                        </h3>
                         <SocialNetworks size='large' />
                         <button className='btn_custom see-my-works' onClick={downloadResume}>
                             Download CV

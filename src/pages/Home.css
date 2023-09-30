@@ -1,7 +1,8 @@
 .home {}
 
 .introduction {
-    height: 60vh;
+    height: max-content;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;

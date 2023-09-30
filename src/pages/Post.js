@@ -22,9 +22,7 @@ function Post() {
             <img src={post.pictureUrl} alt='' />
           </div>
           <div className='post-texts'>
-            <p>
-              {post.postBody.text}
-
+            <p dangerouslySetInnerHTML={{ __html: post.postBody.body }}>
             </p>
           </div>
         </div>
