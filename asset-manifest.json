@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/iPortfolio/static/css/main.7a7d3b68.css",
-    "main.js": "/iPortfolio/static/js/main.da42191f.js",
+    "main.js": "/iPortfolio/static/js/main.959f761f.js",
     "static/css/691.67272157.chunk.css": "/iPortfolio/static/css/691.67272157.chunk.css",
     "static/js/691.26e2c5b2.chunk.js": "/iPortfolio/static/js/691.26e2c5b2.chunk.js",
     "static/css/638.0cccd59b.chunk.css": "/iPortfolio/static/css/638.0cccd59b.chunk.css",
     "static/js/638.7527a64c.chunk.js": "/iPortfolio/static/js/638.7527a64c.chunk.js",
-    "static/css/587.817ee573.chunk.css": "/iPortfolio/static/css/587.817ee573.chunk.css",
-    "static/js/587.a54b8df3.chunk.js": "/iPortfolio/static/js/587.a54b8df3.chunk.js",
+    "static/css/587.c179beff.chunk.css": "/iPortfolio/static/css/587.c179beff.chunk.css",
+    "static/js/587.204ee1c8.chunk.js": "/iPortfolio/static/js/587.204ee1c8.chunk.js",
     "static/css/857.f065edbc.chunk.css": "/iPortfolio/static/css/857.f065edbc.chunk.css",
     "static/js/857.e386483f.chunk.js": "/iPortfolio/static/js/857.e386483f.chunk.js",
     "static/css/346.8afdd04d.chunk.css": "/iPortfolio/static/css/346.8afdd04d.chunk.css",
     "static/js/346.1d3ae671.chunk.js": "/iPortfolio/static/js/346.1d3ae671.chunk.js",
     "static/css/356.fcaebc72.chunk.css": "/iPortfolio/static/css/356.fcaebc72.chunk.css",
-    "static/js/356.c112bc13.chunk.js": "/iPortfolio/static/js/356.c112bc13.chunk.js",
+    "static/js/356.88b54ec6.chunk.js": "/iPortfolio/static/js/356.88b54ec6.chunk.js",
     "static/css/350.90b6707f.chunk.css": "/iPortfolio/static/css/350.90b6707f.chunk.css",
-    "static/js/350.7eb3e8d9.chunk.js": "/iPortfolio/static/js/350.7eb3e8d9.chunk.js",
+    "static/js/350.1a7bf963.chunk.js": "/iPortfolio/static/js/350.1a7bf963.chunk.js",
     "static/media/Poppins-Regular.ttf": "/iPortfolio/static/media/Poppins-Regular.3c813f59f8b9c1566f24.ttf",
     "static/media/Poppins-Light.ttf": "/iPortfolio/static/media/Poppins-Light.aacd55df10c7cef8b696.ttf",
     "static/media/Poppins-Bold.ttf": "/iPortfolio/static/media/Poppins-Bold.d346aa915b3aa516475b.ttf",
@@ -23,24 +23,24 @@
     "static/media/bootstrap-icons.woff2?": "/iPortfolio/static/media/bootstrap-icons.66e4109ec6241c76fdcf.woff2",
     "index.html": "/iPortfolio/index.html",
     "main.7a7d3b68.css.map": "/iPortfolio/static/css/main.7a7d3b68.css.map",
-    "main.da42191f.js.map": "/iPortfolio/static/js/main.da42191f.js.map",
+    "main.959f761f.js.map": "/iPortfolio/static/js/main.959f761f.js.map",
     "691.67272157.chunk.css.map": "/iPortfolio/static/css/691.67272157.chunk.css.map",
     "691.26e2c5b2.chunk.js.map": "/iPortfolio/static/js/691.26e2c5b2.chunk.js.map",
     "638.0cccd59b.chunk.css.map": "/iPortfolio/static/css/638.0cccd59b.chunk.css.map",
     "638.7527a64c.chunk.js.map": "/iPortfolio/static/js/638.7527a64c.chunk.js.map",
-    "587.817ee573.chunk.css.map": "/iPortfolio/static/css/587.817ee573.chunk.css.map",
-    "587.a54b8df3.chunk.js.map": "/iPortfolio/static/js/587.a54b8df3.chunk.js.map",
+    "587.c179beff.chunk.css.map": "/iPortfolio/static/css/587.c179beff.chunk.css.map",
+    "587.204ee1c8.chunk.js.map": "/iPortfolio/static/js/587.204ee1c8.chunk.js.map",
     "857.f065edbc.chunk.css.map": "/iPortfolio/static/css/857.f065edbc.chunk.css.map",
     "857.e386483f.chunk.js.map": "/iPortfolio/static/js/857.e386483f.chunk.js.map",
     "346.8afdd04d.chunk.css.map": "/iPortfolio/static/css/346.8afdd04d.chunk.css.map",
     "346.1d3ae671.chunk.js.map": "/iPortfolio/static/js/346.1d3ae671.chunk.js.map",
     "356.fcaebc72.chunk.css.map": "/iPortfolio/static/css/356.fcaebc72.chunk.css.map",
-    "356.c112bc13.chunk.js.map": "/iPortfolio/static/js/356.c112bc13.chunk.js.map",
+    "356.88b54ec6.chunk.js.map": "/iPortfolio/static/js/356.88b54ec6.chunk.js.map",
     "350.90b6707f.chunk.css.map": "/iPortfolio/static/css/350.90b6707f.chunk.css.map",
-    "350.7eb3e8d9.chunk.js.map": "/iPortfolio/static/js/350.7eb3e8d9.chunk.js.map"
+    "350.1a7bf963.chunk.js.map": "/iPortfolio/static/js/350.1a7bf963.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a7d3b68.css",
-    "static/js/main.da42191f.js"
+    "static/js/main.959f761f.js"
   ]
 }
