@@ -14,17 +14,17 @@ function Blog() {
           {posts.map((post) => {
             return (
               <article className='blog-item' key={post.id}>
-                <div className='blog-img'>
-                  <img src={post.pictureUrl} alt='' />
-                </div>
-                <div className='blog-details'>
-                  <div className='title-text'>
-                    <Link to={baseURL + "/blog/post:" + post.id}>
-                      <h2>{post.title}</h2>
-                    </Link>
-                    <p>{post.postBody.text}</p>
+                <Link to={baseURL + "/blog/post:" + post.id}>
+                  <div className='blog-img'>
+                    <img src={post.pictureUrl} alt='' />
                   </div>
-                </div>
+                  <div className='blog-details'>
+                    <div className='title-text'>
+                      <h2>{post.title}</h2>
+                      <p>{post.postBody.text}</p>
+                    </div>
+                  </div>
+                </Link>
               </article>
             )
 
@@ -34,7 +34,7 @@ function Blog() {
           <BlogPageRightSide />
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 

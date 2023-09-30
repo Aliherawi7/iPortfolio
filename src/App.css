@@ -1,66 +1,80 @@
-
-.padding-LR-90{
-    padding-right: 90px ;
-    padding-left: 90px ;
+.padding-LR-90 {
+    padding-right: 90px;
+    padding-left: 90px;
     padding-top: 20px;
 }
-.margin-LR-90{
-    margin:0 90px ;
+
+.margin-LR-90 {
+    margin: 0 90px;
 }
-h1{
-    font-size: 40px;
+
+h1 {
+    font-size: 60px;
 }
-h2{
+
+h2 {
     font-size: 25px;
 }
-h3{
+
+h3 {
     font-size: 20px;
 }
 
 @media (max-width:1200) {
-    .padding-LR-90{
+    .padding-LR-90 {
         padding-right: 60px;
         padding-left: 60px;
     }
-    .margin-LR-90{
-        margin:0 60px ;
+
+    .margin-LR-90 {
+        margin: 0 60px;
     }
-    h1{
+
+    h1 {
         font-size: 30px;
     }
-    h2{
+
+    h2 {
         font-size: 20px;
     }
-    h3{
+
+    h3 {
         font-size: 15px;
     }
 }
-@media(max-width:992px){
-    .padding-LR-90{
+
+@media(max-width:992px) {
+    .padding-LR-90 {
         padding-right: 30px;
         padding-left: 30px;
     }
-    .margin-LR-90{
-        margin:0 30px ;
+
+    .margin-LR-90 {
+        margin: 0 30px;
     }
-    
+
 }
-@media(max-width:768px){
-    .padding-LR-90{
+
+@media(max-width:768px) {
+    .padding-LR-90 {
         padding-right: 20px;
         padding-left: 20px;
     }
-    .margin-LR-90{
-        margin:0 20px ; 
+
+    .margin-LR-90 {
+        margin: 0 20px;
     }
-    h1{
+
+    h1 {
         font-size: 25px;
     }
-    h2{
+
+    h2 {
         font-size: 20px;
     }
-    h3{
+
+    h3 {
         font-size: 15px;
     }
-    
+
 }
