@@ -148,7 +148,7 @@ function Home() {
                     <h3 className='section_title'>Education</h3>
                     <div className="resume-item">
                         <h4>Herat University, Herat — Bachelor of science in Computer science</h4>
-                        <h5>2015 - 2016</h5>
+                        <h5>2017 - 2020</h5>
                         <p>Studied a comprehensive curriculum in computer science, gaining a strong foundation in programming, algorithms, data structures, and software development. Developed problem-solving and analytical skills through coursework and projects.</p>
                     </div>
                 </div>
