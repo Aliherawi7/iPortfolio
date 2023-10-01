@@ -141,6 +141,47 @@ const ProjectsDetail = [
     {
         id: 3,
         image: {
+            address: baseURL + "/image/projectsImages/global-4.png",
+            alt: "Global"
+        },
+        appInfo: {
+            header: "Web Application",
+            title: "Global",
+            overview: "Global application provides valuable information about countries and cities. it uses different APIs for fetching data",
+            body: "Global application has been developed using Angular v(16.1.0)",
+            features: [
+                "Completely Free",
+                "Multi Theme",
+                "No Advertising",
+                "No User Tracking",
+                "No Login / Signup",
+                "Great Templates style",
+                "Angular Material",
+            ],
+            pages: [
+                "Home",
+                "Countries",
+                "Cities",
+                "Quiz Page",
+                "About",
+                "404 Error(not found)",
+            ],
+            preview: [
+                baseURL + "/image/projectsImages/global-1.png",
+                baseURL + "/image/projectsImages/global-2.png",
+                baseURL + "/image/projectsImages/global-3.png",
+                baseURL + "/image/projectsImages/global-4.png",
+            ],
+            links: {
+                github: "https://github.com/Aliherawi7/global",
+                demo: "https://aliherawi7.github.io/global",
+
+            }
+        }
+    },
+    {
+        id: 4,
+        image: {
             address: baseURL + "/image/4.png",
             alt: "Music Player"
         },
@@ -156,7 +197,7 @@ const ProjectsDetail = [
         }
     },
     {
-        id: 4,
+        id: 5,
         image: {
             address: baseURL + "/image/5.png",
             alt: "NetFlix clone"
@@ -193,6 +234,115 @@ const ProjectsDetail = [
                 github: "https://github.com/Aliherawi7/Netflix-Af-clone",
                 demo: "https://netflix-clone-af.netlify.app/",
                 apiRepo: "https://api.themoviedb.org"
+            }
+        }
+
+    },
+    {
+        id: 6,
+        image: {
+            address: baseURL + "/image/projectsImages/portal-1.png",
+            alt: "University Portal app"
+        },
+        appInfo: {
+            header: "Web Application",
+            title: "University Portal",
+            overview: "University Portal application was designed with React js and Spring boot Appli",
+            body: `The "portal-app for university" is a web application developed by Aliherawi7. It is designed to serve as a comprehensive portal for universities, providing various functionalities and features to enhance the student and administrative experience. The application is built using React, JavaScript, and React Router v6, with CSS utilized for styles and animations.
+
+The purpose of the portal-app is to create a centralized platform where students, faculty, and administrators can access and manage important university-related information. It offers different pages and sections, including a home page, profile page, attendance page, and students page.
+
+With the portal-app, students can conveniently access their profiles, view and update personal information, check their attendance records, and stay informed about important announcements and events. They can also interact with their peers through the students' page, fostering a sense of community and collaboration.
+
+Administrators and faculty members can utilize the portal to efficiently manage student data, track attendance, and communicate important information to students. The application aims to streamline administrative processes and enhance communication between students and faculty.
+
+The portal-app is developed using modern web technologies and follows best practices for performance and scalability. It leverages React's component-based architecture to ensure a modular and maintainable codebase. The application is designed to be responsive and user-friendly, providing an intuitive interface for users to navigate and interact with the various features.
+
+Whether you're a student looking for a convenient way to access university information or an administrator seeking to streamline administrative tasks, the portal-app for university offers a comprehensive solution. It empowers users with the tools they need to effectively manage their university experience while fostering a connected and engaged community.`,
+            features: [
+                "Login/signup",
+                "No Advertising",
+                "Working with API",
+                "Full Responsive",
+                "React Hooks",
+                "React Context",
+                "Great Templates style",
+                "Bootstrap icon",
+                "animations",
+                "online attendance"
+            ],
+            pages: [
+                "Home",
+                "departments",
+                "Students",
+                "Posts",
+                "Teachers",
+                "Schedules",
+                "Attendance",
+                "add new student",
+                "add new post",
+                "About",
+                "404 Error(not found)",
+            ],
+            preview: [
+                baseURL + "/image/projectsImages/portal-1.png",
+                baseURL + "/image/projectsImages/portal-2.png",
+                baseURL + "/image/projectsImages/portal-3.png",
+                baseURL + "/image/projectsImages/portal-4.png",
+            ],
+            links: {
+                github: "https://github.com/Aliherawi7/portal-app",
+                demo: "http://54.219.198.49:3000/",
+                apiRepo: "https://github.com/Aliherawi7/portal-api"
+            }
+        }
+
+    },
+    {
+        id: 7,
+        image: {
+            address: baseURL + "/image/projectsImages/kn-1.png",
+            alt: "Keep Notes app"
+        },
+        appInfo: {
+            header: "Web Application",
+            title: "Keep Notes",
+            overview: "Keep Notes is a simple note-taking application developed using Angular",
+            body: `Keep Notes is a simple note-taking application developed using Angular. Inspired by Google Keep, this application provides a clean and intuitive interface for users to create and manage their notes effectively. With features like real-time updates and easy customization, Keep Notes offers a seamless note-taking experience.
+
+Key Features:
+
+Create and Edit Notes: Users can easily create new notes, add titles, and write content. The application provides a rich text editor for formatting text, adding bullet points, and more.
+Categorize and Organize: Keep Notes allows users to categorize their notes using labels or tags. This helps in organizing and quickly finding specific notes based on different topics or themes.
+Real-time Updates: Any changes made to the notes are automatically saved and synchronized in real-time. Users can access their notes from multiple devices and always have the latest version available.
+Reminders and Notifications: Users can set reminders for important notes and receive notifications at specified times or dates. This feature ensures that users never miss any important tasks or deadlines.
+Archive and Delete: Keep Notes provides options to archive or delete notes. Archiving allows users to store important notes without cluttering the main view, while deletion permanently removes unwanted notes.
+Search and Filters: The application includes a powerful search functionality that allows users to quickly find specific notes based on keywords. Users can also apply filters to narrow down the notes based on labels, dates, or other criteria.
+Customization: Keep Notes offers customization options such as changing the color of notes, organizing notes in different layouts, and applying personalized themes to suit individual preferences.`,
+            features: [
+                "Login/signup",
+                "No Advertising",
+                "Working with API",
+                "Full Responsive",
+                "animations",
+            ],
+            pages: [
+                "Home",
+                "noted",
+                "add new note",
+                "About",
+                "404 Error(not found)",
+            ],
+            preview: [
+                baseURL + "/image/projectsImages/kn-1.png",
+                baseURL + "/image/projectsImages/kn-2.png",
+                baseURL + "/image/projectsImages/kn-3.png",
+                baseURL + "/image/projectsImages/kn-4.png",
+            ],
+            links: {
+                github: "https://github.com/Aliherawi7/keep-notes",
+                demo: "",
+                apiRepo: ""
             }
         }
 
