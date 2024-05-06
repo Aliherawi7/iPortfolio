@@ -112,7 +112,7 @@ function Home() {
                     </div>
                     <div className="resume-item">
                         <h4>Netlinks, Herat - Backend Developer</h4>
-                        <h5>March 2019 - June 2021</h5>
+                        <h5>March 2020 - June 2021</h5>
                         <p><em>Key responsibilities:</em></p>
                         <ul>
                             <li>Developed and maintained backend systems, ensuring
