@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/iPortfolio/static/css/main.cc414231.css",
-    "main.js": "/iPortfolio/static/js/main.3dc1b129.js",
+    "main.js": "/iPortfolio/static/js/main.1c72724f.js",
     "static/css/691.67272157.chunk.css": "/iPortfolio/static/css/691.67272157.chunk.css",
     "static/js/691.26e2c5b2.chunk.js": "/iPortfolio/static/js/691.26e2c5b2.chunk.js",
     "static/css/638.0cccd59b.chunk.css": "/iPortfolio/static/css/638.0cccd59b.chunk.css",
     "static/js/638.7527a64c.chunk.js": "/iPortfolio/static/js/638.7527a64c.chunk.js",
     "static/css/587.8e642306.chunk.css": "/iPortfolio/static/css/587.8e642306.chunk.css",
-    "static/js/587.3e5b89be.chunk.js": "/iPortfolio/static/js/587.3e5b89be.chunk.js",
+    "static/js/587.49c7a93e.chunk.js": "/iPortfolio/static/js/587.49c7a93e.chunk.js",
     "static/css/857.f065edbc.chunk.css": "/iPortfolio/static/css/857.f065edbc.chunk.css",
     "static/js/857.695b9159.chunk.js": "/iPortfolio/static/js/857.695b9159.chunk.js",
     "static/css/346.8afdd04d.chunk.css": "/iPortfolio/static/css/346.8afdd04d.chunk.css",
@@ -23,13 +23,13 @@
     "static/media/bootstrap-icons.woff2?": "/iPortfolio/static/media/bootstrap-icons.66e4109ec6241c76fdcf.woff2",
     "index.html": "/iPortfolio/index.html",
     "main.cc414231.css.map": "/iPortfolio/static/css/main.cc414231.css.map",
-    "main.3dc1b129.js.map": "/iPortfolio/static/js/main.3dc1b129.js.map",
+    "main.1c72724f.js.map": "/iPortfolio/static/js/main.1c72724f.js.map",
     "691.67272157.chunk.css.map": "/iPortfolio/static/css/691.67272157.chunk.css.map",
     "691.26e2c5b2.chunk.js.map": "/iPortfolio/static/js/691.26e2c5b2.chunk.js.map",
     "638.0cccd59b.chunk.css.map": "/iPortfolio/static/css/638.0cccd59b.chunk.css.map",
     "638.7527a64c.chunk.js.map": "/iPortfolio/static/js/638.7527a64c.chunk.js.map",
     "587.8e642306.chunk.css.map": "/iPortfolio/static/css/587.8e642306.chunk.css.map",
-    "587.3e5b89be.chunk.js.map": "/iPortfolio/static/js/587.3e5b89be.chunk.js.map",
+    "587.49c7a93e.chunk.js.map": "/iPortfolio/static/js/587.49c7a93e.chunk.js.map",
     "857.f065edbc.chunk.css.map": "/iPortfolio/static/css/857.f065edbc.chunk.css.map",
     "857.695b9159.chunk.js.map": "/iPortfolio/static/js/857.695b9159.chunk.js.map",
     "346.8afdd04d.chunk.css.map": "/iPortfolio/static/css/346.8afdd04d.chunk.css.map",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.cc414231.css",
-    "static/js/main.3dc1b129.js"
+    "static/js/main.1c72724f.js"
   ]
 }
