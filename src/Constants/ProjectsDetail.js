@@ -4,7 +4,7 @@ const ProjectsDetail = [
     {
         id: 0,
         image: {
-            address: baseURL + "/image/1.png",
+            address: "/image/1.png",
             alt: "Sigma app"
         },
         appInfo: {
@@ -33,9 +33,9 @@ const ProjectsDetail = [
                 "404 Error(not found)"
             ],
             preview: [
-                baseURL + "/image/projectsImages/sigma-home.png",
-                baseURL + "/image/projectsImages/sigma-chat.png",
-                baseURL + "/image/projectsImages/sigma-profile.png"
+                "/image/projectsImages/sigma-home.png",
+                "/image/projectsImages/sigma-chat.png",
+                "/image/projectsImages/sigma-profile.png"
             ],
             links: {
                 github: "https://github.com/Aliherawi7/sigma-ui",
@@ -49,7 +49,7 @@ const ProjectsDetail = [
     {
         id: 1,
         image: {
-            address: baseURL + "/image/2.png",
+            address: "/image/2.png",
             alt: "eShop store"
         },
         appInfo: {
@@ -81,8 +81,8 @@ const ProjectsDetail = [
                 "404 Error(not found)",
             ],
             preview: [
-                baseURL + "/image/projectsImages/eshop-admin-panel.png",
-                baseURL + "/image/projectsImages/eshop-store-ui.png"
+                "/image/projectsImages/eshop-admin-panel.png",
+                "/image/projectsImages/eshop-store-ui.png"
             ],
             links: {
                 github: "https://github.com/Aliherawi7/eshop-store",
@@ -94,7 +94,7 @@ const ProjectsDetail = [
     {
         id: 2,
         image: {
-            address: baseURL + "/image/3.png",
+            address: "/image/3.png",
             alt: "Resume Builder"
         },
         appInfo: {
@@ -128,8 +128,8 @@ const ProjectsDetail = [
                 "404 Error(not found)",
             ],
             preview: [
-                baseURL + "/image/projectsImages/resume-build-page.png",
-                baseURL + "/image/projectsImages/resume-builder-download-page.png"
+                "/image/projectsImages/resume-build-page.png",
+                "/image/projectsImages/resume-builder-download-page.png"
             ],
             links: {
                 github: "https://github.com/Aliherawi7/resume-builder",
@@ -141,7 +141,7 @@ const ProjectsDetail = [
     {
         id: 3,
         image: {
-            address: baseURL + "/image/projectsImages/global-4.png",
+            address: "/image/projectsImages/global-4.png",
             alt: "Global"
         },
         appInfo: {
@@ -167,10 +167,10 @@ const ProjectsDetail = [
                 "404 Error(not found)",
             ],
             preview: [
-                baseURL + "/image/projectsImages/global-1.png",
-                baseURL + "/image/projectsImages/global-2.png",
-                baseURL + "/image/projectsImages/global-3.png",
-                baseURL + "/image/projectsImages/global-4.png",
+                "/image/projectsImages/global-1.png",
+                "/image/projectsImages/global-2.png",
+                "/image/projectsImages/global-3.png",
+                "/image/projectsImages/global-4.png",
             ],
             links: {
                 github: "https://github.com/Aliherawi7/global",
@@ -182,7 +182,7 @@ const ProjectsDetail = [
     {
         id: 4,
         image: {
-            address: baseURL + "/image/4.png",
+            address: "/image/4.png",
             alt: "Music Player"
         },
         appInfo: {
@@ -199,7 +199,7 @@ const ProjectsDetail = [
     {
         id: 5,
         image: {
-            address: baseURL + "/image/5.png",
+            address: "/image/5.png",
             alt: "NetFlix clone"
         },
         appInfo: {
@@ -228,7 +228,7 @@ const ProjectsDetail = [
                 "404 Error(not found)",
             ],
             preview: [
-                baseURL + "/image/projectsImages/",
+                "/image/projectsImages/",
             ],
             links: {
                 github: "https://github.com/Aliherawi7/Netflix-Af-clone",
@@ -241,7 +241,7 @@ const ProjectsDetail = [
     {
         id: 6,
         image: {
-            address: baseURL + "/image/projectsImages/portal-1.png",
+            address: "/image/projectsImages/portal-1.png",
             alt: "University Portal app"
         },
         appInfo: {
@@ -285,10 +285,10 @@ Whether you're a student looking for a convenient way to access university infor
                 "404 Error(not found)",
             ],
             preview: [
-                baseURL + "/image/projectsImages/portal-1.png",
-                baseURL + "/image/projectsImages/portal-2.png",
-                baseURL + "/image/projectsImages/portal-3.png",
-                baseURL + "/image/projectsImages/portal-4.png",
+                "/image/projectsImages/portal-1.png",
+                "/image/projectsImages/portal-2.png",
+                "/image/projectsImages/portal-3.png",
+                "/image/projectsImages/portal-4.png",
             ],
             links: {
                 github: "https://github.com/Aliherawi7/portal-app",
@@ -301,7 +301,7 @@ Whether you're a student looking for a convenient way to access university infor
     {
         id: 7,
         image: {
-            address: baseURL + "/image/projectsImages/kn-1.png",
+            address: "/image/projectsImages/kn-1.png",
             alt: "Keep Notes app"
         },
         appInfo: {
@@ -334,10 +334,10 @@ Customization: Keep Notes offers customization options such as changing the colo
                 "404 Error(not found)",
             ],
             preview: [
-                baseURL + "/image/projectsImages/kn-1.png",
-                baseURL + "/image/projectsImages/kn-2.png",
-                baseURL + "/image/projectsImages/kn-3.png",
-                baseURL + "/image/projectsImages/kn-4.png",
+                "/image/projectsImages/kn-1.png",
+                "/image/projectsImages/kn-2.png",
+                "/image/projectsImages/kn-3.png",
+                "/image/projectsImages/kn-4.png",
             ],
             links: {
                 github: "https://github.com/Aliherawi7/keep-notes",

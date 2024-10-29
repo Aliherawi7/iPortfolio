@@ -45,7 +45,7 @@ function Slider({ products = [], delay = 8, }) {
                         {product.map(item => {
                             return (
                                 <div className={`slider-item `} key={item?.id}>
-                                    <img className='slider-image' src={item.image.address} />
+                                    <img className='slider-image' src={item.image.address} alt='' />
                                     <div className='image-info'>
                                         <h1 className='slider-header-2'>{item?.appInfo.title}</h1>
                                         <h2 className='slider-header-1'>{item?.appInfo.header}</h2>

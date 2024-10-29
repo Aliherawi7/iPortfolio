@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Link, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import { actions } from '../reducer';
 import { useStatevalue } from '../stateProvider';
 import "./Home.css"
@@ -9,7 +9,6 @@ import Skills from '../Constants/Skills';
 import Skill from '../components/Skill';
 import SocialNetworks from '../components/SocialNetworks';
 import AboutMe from '../components/AboutMe';
-import { baseURL } from '../Constants/BaseUrl';
 
 
 function Home() {
@@ -60,7 +59,7 @@ function Home() {
                         </button>
                     </div>
                     <div className='profile-container'>
-                        <img src={baseURL + '/image/person1.png'} className='profile' />
+                        <img src={'/image/person1.png'} className='profile' alt='' />
                     </div>
                 </div>
             </div>
