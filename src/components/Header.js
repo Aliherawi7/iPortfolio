@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { baseURL } from '../Constants/BaseUrl';
 import { actions } from '../reducer';
 import { useStatevalue } from '../stateProvider'
 import "./Header.css"
@@ -31,18 +30,18 @@ function Header() {
     const goHome = () => {
         dispatch({
             type: actions.ACTIVE_NAV_LINK,
-            item: baseURL + "/"
+            item: + "/"
         })
-        navigate(baseURL + "/");
+        navigate(+ "/");
     }
     return (
         <header className='header padding-LR-90'>
-            <Link to={baseURL + "/"} onClick={goHome}>
-                <img src={baseURL + "/image/AH1.png"} className='nav-brand' />
+            <Link to={"/"} onClick={goHome}>
+                <img src={"/image/AH1.png"} className='nav-brand' alt='' />
             </Link>
             <nav style={{ right: showMenu ? "0" : "-250px" }}>
-                <Link to={baseURL + "/"} onClick={() => setActive(baseURL + "/")}>
-                    <span className={state == baseURL + "/" ? "active" : ""}>Home</span>
+                <Link to={"/"} onClick={() => setActive("/")}>
+                    <span className={"/" ? "active" : ""}>Home</span>
                 </Link>
                 <Link to={"/projects"} onClick={() => setActive("/projects")}>
                     <span className={state.includes("/projects") ? "active" : ""}>Projects</span>
