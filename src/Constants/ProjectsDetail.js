@@ -4,6 +4,59 @@ const ProjectsDetail = [
     {
         id: 0,
         image: {
+            address: "/image/0.png",
+            alt: "Business Management App"
+        },
+        appInfo: {
+            header: "Business Management",
+            title: "Business Management app",
+            overview: "The business management web app designed to streamline various aspects of company operations. It likely includes features for managing employee records, tracking tasks or sales, monitoring financial data, and overseeing day-to-day processes to enhance business efficiency. The platform is tailored for businesses looking for organized, centralized management of their activities. For more information, you can explore the app [here](https://business-Management.web.app/).",
+            body: "Sigma was created and developed with React v17.0.2, react-redux v8.0.5, JavaScript and React Router v6. For Styling I used pure Css3 and Bootsrap-icons for icons",
+            features: [
+                "Attractive UI",
+                "Seamless UI/UX",
+                "Free Storage",
+                "NoSQL Database",
+                "Secure Operation",
+                "Mutili Type Users",
+                "Backups",
+                "Email based Authentication",
+            ],
+            pages: [
+                "Home",
+                "Sales",
+                "Purchases",
+                "Consumptions",
+                "Files",
+                "Depot Reports",
+                "Reports",
+                "Money Exchange",
+                "Products",
+                "Partners",
+                "Customers",
+                "Representors",
+                "Logs Reports",
+                "Settings",
+                "404 Error(not found)"
+            ],
+            preview: [
+                "/image/projectsImages/business-m-report.png",
+                "/image/projectsImages/business-m-consumptions.png",
+                "/image/projectsImages/business-m-customers.png",
+                "/image/projectsImages/business-m-customer.png"
+            ],
+            links: {
+                github: "https://github.com/Aliherawi7/business-management",
+                demo: "https://business-management.web.app",
+                apiRepo: ""
+
+            }
+
+        }
+    },
+    {
+        id: 0,
+        image: {
             address: "/image/1.png",
             alt: "Sigma app"
         },
