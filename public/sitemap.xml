@@ -1,16 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+   <!-- Home Page -->
+   <url>
+      <loc>https://ali-herawi.web.app/</loc>
+      <lastmod>2024-11-07</lastmod>
+      <priority>1.0</priority>
+   </url>
 
-<url>
-  <loc>https://ali-herawi.web.app/</loc>
-  <lastmod>2024-11-07T18:41:11+00:00</lastmod>
-</url>
+   <!-- Projects Page -->
+   <url>
+      <loc>https://ali-herawi.web.app/projects</loc>
+      <lastmod>2024-11-07</lastmod>
+      <priority>0.8</priority>
+   </url>
 
+   <!-- Example Project Detail Pages (Dynamic) -->
+ <url>
+      <loc>https://ali-herawi.web.app/projects/0</loc>
+      <lastmod>2024-11-01</lastmod>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://ali-herawi.web.app/projects/1</loc>
+      <lastmod>2024-11-01</lastmod>
+      <priority>0.7</priority>
+   </url>
+   <url>
+      <loc>https://ali-herawi.web.app/projects/2</loc>
+      <lastmod>2024-11-01</lastmod>
+      <priority>0.7</priority>
+   </url>
+ <url>
+      <loc>https://ali-herawi.web.app/projects/3</loc>
+      <lastmod>2024-11-01</lastmod>
+      <priority>0.7</priority>
+   </url>
+ <url>
+      <loc>https://ali-herawi.web.app/projects/4</loc>
+      <lastmod>2024-11-01</lastmod>
+      <priority>0.7</priority>
+   </url>
+ <url>
+      <loc>https://ali-herawi.web.app/projects/5</loc>
+      <lastmod>2024-11-01</lastmod>
+      <priority>0.7</priority>
+   </url>
+ <url>
+      <loc>https://ali-herawi.web.app/projects/6</loc>
+      <lastmod>2024-11-01</lastmod>
+      <priority>0.7</priority>
+   </url>
+   <!-- Add more project pages here based on actual project IDs -->
+
+   <!-- Blog Page -->
+   <url>
+      <loc>https://ali-herawi.web.app/blog</loc>
+      <lastmod>2024-11-07</lastmod>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- Example Blog Post Pages (Dynamic) -->
+   <url>
+      <loc>https://ali-herawi.web.app/blog/post1</loc>
+      <lastmod>2024-10-20</lastmod>
+      <priority>0.6</priority>
+   </url>
+   <url>
+      <loc>https://ali-herawi.web.app/blog/post2</loc>
+      <lastmod>2024-10-25</lastmod>
+      <priority>0.6</priority>
+   </url>
+   <!-- Add more blog post pages here based on actual post IDs -->
+
+   <!-- 404 Page (optional, low priority) -->
+   <url>
+      <loc>https://ali-herawi.web.app/404</loc>
+      <lastmod>2024-11-07</lastmod>
+      <priority>0.1</priority>
+   </url>
 
 </urlset>
