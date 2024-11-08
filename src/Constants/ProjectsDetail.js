@@ -55,7 +55,7 @@ const ProjectsDetail = [
         }
     },
     {
-        id: 0,
+        id: 1,
         image: {
             address: "/image/1.png",
             alt: "Sigma app"
@@ -100,7 +100,7 @@ const ProjectsDetail = [
         }
     },
     {
-        id: 1,
+        id: 2,
         image: {
             address: "/image/2.png",
             alt: "eShop store"
@@ -145,7 +145,7 @@ const ProjectsDetail = [
         }
     },
     {
-        id: 2,
+        id: 3,
         image: {
             address: "/image/3.png",
             alt: "Resume Builder"
@@ -192,7 +192,7 @@ const ProjectsDetail = [
         }
     },
     {
-        id: 3,
+        id: 4,
         image: {
             address: "/image/projectsImages/global-4.png",
             alt: "Global"
@@ -233,7 +233,7 @@ const ProjectsDetail = [
         }
     },
     {
-        id: 4,
+        id: 5,
         image: {
             address: "/image/4.png",
             alt: "Music Player"
@@ -250,7 +250,7 @@ const ProjectsDetail = [
         }
     },
     {
-        id: 5,
+        id: 6,
         image: {
             address: "/image/5.png",
             alt: "NetFlix clone"
@@ -292,7 +292,7 @@ const ProjectsDetail = [
 
     },
     {
-        id: 6,
+        id: 7,
         image: {
             address: "/image/projectsImages/portal-1.png",
             alt: "University Portal app"
@@ -352,7 +352,7 @@ Whether you're a student looking for a convenient way to access university infor
 
     },
     {
-        id: 7,
+        id: 8,
         image: {
             address: "/image/projectsImages/kn-1.png",
             alt: "Keep Notes app"
