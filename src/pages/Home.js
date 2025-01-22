@@ -26,12 +26,12 @@ function Home() {
         navigate("/projects");
     }
     const downloadResume = () => {
-        fetch("Ali-herawi-v2.pdf").then(res => {
+        fetch("Ali-Herawi-v2.5.pdf").then(res => {
             res.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let fileLink = document.createElement('a');
                 fileLink.href = fileURL;
-                fileLink.download = "Ali-herawi-resume-v2.pdf"
+                fileLink.download = "Ali-herawi-v2.5.pdf"
                 fileLink.click();
             })
         })
@@ -80,7 +80,7 @@ function Home() {
                 <div className="resume-section">
                     <h3 className='section_title'>Professional Experience</h3>
                     <div className="resume-item">
-                        <h4>Afghan Web, Herat - Software Developer</h4>
+                        <h4>Atomcode, Herat - Software Developer</h4>
                         <h5>July 2021 - May 2023</h5>
                         <p><em>Key responsibilities:</em></p>
                         <ul>
@@ -110,7 +110,7 @@ function Home() {
                         </ul>
                     </div>
                     <div className="resume-item">
-                        <h4>Netlinks, Herat - Backend Developer</h4>
+                        <h4>Afghan Web, Herat - Backend Developer</h4>
                         <h5>March 2020 - June 2021</h5>
                         <p><em>Key responsibilities:</em></p>
                         <ul>

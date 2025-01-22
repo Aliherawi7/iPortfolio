@@ -41,7 +41,7 @@ const InstallPrompt = () => {
 
     return (
         <div style={styles.prompt}>
-            <p>Install our app for a better experience!</p>
+            <p>{t('installMessage')}</p>
             <button onClick={handleInstallClick} style={styles.button}>Install</button>
         </div>
     );
