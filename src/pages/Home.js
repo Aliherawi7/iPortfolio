@@ -44,7 +44,7 @@ function Home() {
                         <p>Hello, my name is</p>
                         <h1>Ali Herawi</h1>
                         <h3>
-                            Software Engineer with over 4 years of full stack web development experience specializing in Spring,
+                            Software Engineer with over 5 years of full stack web development experience specializing in Spring,
                             React and Angular. Expertise in front-end development, demonstrated through successful projects
                             and strong coding skills. Strong problem-solving abilities and a collaborative team player.
                             Ready to contribute technical expertise and drive successful outcomes in a dynamic work environment.
@@ -81,7 +81,7 @@ function Home() {
                     <h3 className='section_title'>Professional Experience</h3>
                     <div className="resume-item">
                         <h4>Atomcode, Herat - Software Developer</h4>
-                        <h5>July 2021 - May 2023</h5>
+                        <h5>July 2022 - Current</h5>
                         <p><em>Key responsibilities:</em></p>
                         <ul>
                             <li>Designed, developed, and maintained software applications
@@ -111,7 +111,7 @@ function Home() {
                     </div>
                     <div className="resume-item">
                         <h4>Afghan Web, Herat - Backend Developer</h4>
-                        <h5>March 2020 - June 2021</h5>
+                        <h5>Feb 2020 - Jul 2022</h5>
                         <p><em>Key responsibilities:</em></p>
                         <ul>
                             <li>Developed and maintained backend systems, ensuring
@@ -139,6 +139,19 @@ function Home() {
                             </li>
                             <li>Developed a robust error handling system, reducing system
                                 downtime by 20% and enhancing user experience.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="resume-item">
+                        <h4>NetLink, Herat - Backend Developer</h4>
+                        <h5>Jan 2020 - Aug 2020</h5>
+                        <p><em>Key responsibilities:</em></p>
+                        <ul>
+                            <li>Assisted in developing REST API endpoints using Spring Boot, contributing to feature delivery on time</li>
+                            <li>Learned and applied best practices for error handling and logging, which made debugging production issues faster.
+                            </li>
+                            <li>Participated in daily stand-ups and sprint planning, contributing ideas that improved team workflow and communication.</li>
+                            <li>Wrote unit and integration tests that increased code coverage and helped catch issues early in the development cycle.
                             </li>
                         </ul>
                     </div>
